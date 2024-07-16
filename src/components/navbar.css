@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 91px;
+    background-color: #fff;
+    
+}
+
+.logo img {
+    width: 356px;
+    height: 72px;
+    top: 42px;
+    left: 91px;
+   
+
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-weight:normal;
+    transition: color 0.3s;
+
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.14px;
+    text-align: left;
+
+}
+
+.navbar a:hover {
+    color: #00B2B2;
+}
+
+.navbar a.active {
+    color: #00B2B2; /* Color for the active link */
+}
