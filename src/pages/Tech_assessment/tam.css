@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+.tech {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.des {
+  margin-bottom: 40px;
+}
+
+.des h1 {
+  position: relative;
+  width: 612px;
+  left: 76px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: 'Source Sans Pro';
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 60.34px;
+  text-align: left;
+  color: #328d89;
+  margin: 0;
+}
+
+.des p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 48%;
+  line-height: 1.6;
+  text-align: left;
+  position: relative;
+  left: 76px;
+}
+
+.services-listt {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid with flexible columns */
+  gap: 30.5px; /* Space between items */
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 5%; /* Equal left margin */
+  margin-right: 10%; /* Equal right margin */
+  padding-bottom: 0%;
+}
+
+.title-container {
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 72px;
+}
+
+.title-container h2 {
+  margin: 0;
+}
+
+.title_decoration {
+  height: 0.25rem;
+  width: 35vh;
+  margin-right: 7vh;
+  background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+  color: transparent;
+}
+
+.service-item1t {
+  background: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:start;
+  width: 100%; /* Full width of the grid cell */
+  box-sizing: border-box; /* Include padding and border in the width */
+  gap: 10px; /* Space between content inside the box */
+  border-radius: 0px; /* Rounded corners */
+  border: 1px solid #ddd; /* Border style */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow effect */
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth hover effects */
+  padding-bottom: 60px;
+}
+
+.service-item1t h2 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  color: #8860D0;
+  text-align: left;
+}
+
+.service-item1t p {
+  font-size: 0.9rem;
+  color: #000000;
+  text-align: left;
+  margin-top: 2px;
+  max-width: 100%;
+  text-align: left;
+}
+
+.service-item1t:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.rect {
+  width: 35vh;
+  height: 0.60rem;
+  background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+  color: transparent;
+  left: 76px;
+  position: relative;
+}
+
+.service-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 70px;
+  margin-right: 65px;
+  justify-content: left;
+}
+
+.service-btn {
+  padding: 10px 70px; /* Increased padding to make the button larger */
+  border: 2px solid black;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 0px; /* Added slight rounding to the corners */
+  background: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition effects */
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+}
+
+.service-btn:hover {
+  background: linear-gradient(45deg, #73cfca, #8860d0); /* Gradient effect on hover */
+  transform: scale(1.05); /* Slightly increase the button size on hover */
+  border: none;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+  color: #fff;
+}

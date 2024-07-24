@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+.chome {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-gap: 5px; */
+  padding-bottom: 150px;
+}
+
+.ched {
+    margin-bottom: 40px;
+    grid-column: 1;
+    margin-left: 10vh;
+  }
+
+.collab{
+    
+        margin-bottom: 40px;
+        grid-column: 1;
+        margin-left: 0vh;
+        width: 400px;
+}        
+      
+
+
+
+  .collab h1 {
+    width: 612px;
+    top: 138px;
+    left: 108px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Source Sans Pro;
+    font-size: 3rem;
+    font-weight:bolder;
+    line-height: 40.34px;
+    text-align: left;
+    color: #328d89;
+    margin: 0;
+  }
+  
+  .collab p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 78%;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  .collab_types{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-right: 10vh;
+
+    
+    /* align-items: flex-start; Changed to flex-start to align items at the top */
+    
+   
+  }
+
+  .collab_type1{
+    margin: 20px;
+    text-align: left;
+    width: 12rem;
+    height: 20rem;
+    background: #FFFFFF;
+    box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4); 
+    padding-bottom: 120px;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+  
+
+  .collab_type1 p {
+    font-size: 1.3rem;
+    color: #8860D0;
+    margin-top: 1.0rem;
+    margin-bottom: 0rem;
+    font-weight: bold;
+    text-align: left;
+    }
+  
+ 
+  .collab_type1 p.discription {
+
+    color: #555;
+    font-size: 0.75rem;
+    padding-bottom: 20px;
+    text-align: left;
+    margin-top:0.5rem ;
+  }
+  
+  .collab_type1:hover {
+    height: 19rem ;
+    transition: 0.7s ease-in-out;
+    background: radial-gradient(132.22% 118% at 7.5% 0%, #8860D0 0%, #73CFCA 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+   
+    text-align: left;
+  }
+  
+  .collab_type1:hover p {
+     color:#FFFFFF;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    transition: 0.7s ease-in-out;
+    text-align: left;
+  }
+  
+  
+
+  .collab_type1:hover p.discription {
+    display: none;
+    transition: 0.7s ease-in-out;
+    padding-top: 0px;
+    padding-bottom: 20px ;
+    text-align:justify;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  .btn{
+    text-align: left;
+    border: none;
+
+
+  }
+
+  .service-btn {
+    padding: 15px 33px; /* Increased padding to make the button larger */
+    border:none;
+    color:#FFFFFF;
+    font-weight: bold;
+    border-radius: 0px; /* Added slight rounding to the corners */
+    cursor: pointer;
+    transition: background 0s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition effects */
+    box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+    background: radial-gradient(132.22% 118% at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+
+  .collab_type1:hover button.service-btn{
+
+    padding: 15px 33px; /* Increased padding to make the button larger */
+    border: 2px solid black;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 0px; /* Added slight rounding to the corners */
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition effects */
+    box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+    background:#fff;
+    text-align: left;
+    margin-bottom: 50px;
+    margin-top: 100px;
+
+
+  }
+  
+
+
+  
+   
+
+
+  
+  @media screen and (max-width: 768px) {
+    .home {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  
+  
+  
+  
+
+
+
+
+
+

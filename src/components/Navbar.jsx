@@ -13,7 +13,7 @@ export default function Navbar()
                 </div>
                 <nav className="navbar">
                     <Link to="/">Home</Link>
-                    <Link to="/services">Our services</Link>
+                    <Link to="/service">Our services</Link>
                     <Link to="/technology">Technology</Link>
                     <Link to="/resources">Resources</Link>
                     <Link to="/collaborate">Collaborate</Link>

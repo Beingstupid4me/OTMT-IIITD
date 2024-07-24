@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+.fac-inn {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.des {
+  margin-bottom: 40px;
+}
+
+.des h1 {
+    position: relative;
+    width: 612px;
+    left: 76px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Source Sans Pro;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 60.34px;
+    text-align: left;
+    color: #328d89;
+    margin: 0;
+ 
+}
+
+.des p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 48%;
+    line-height: 1.6;
+    text-align: left;
+    position: relative;
+    left: 76px;
+}
+
+.services-list {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 22px;  /*Add some space between items */
+    /* margin: auto 0; */
+    margin-top: 0vh;
+    margin-bottom: 0.51vh;
+    margin-right: 7vh;
+    margin-left: 7vh;
+
+
+}
+
+  
+
+.service-item1 {
+ /* color: radial-gradient(50% 50% at 50% 50%, #328D89 0%, #8860D0 100%);
+   color: #328D89;  */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 1.5rem; 
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto; 
+  gap: 0px;
+  border-radius: 0;
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+  opacity: 1; 
+  background: #FFFFFF;
+}
+
+
+.service-item1 h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #8860D0;
+  text-align: start;
+  margin-left: 0px;
+  margin-right: 40px;
+
+}
+
+  .service-item1 p {
+    padding-bottom: 50px;
+    padding-right: 10px;
+    font-size: 1rem; 
+    color: #333; 
+    text-align: left; 
+    margin-top: 10px; 
+    max-width: 100%; 
+    padding: 10px 10px;
+}
+
+  
+
+.service-item1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.rect{
+    width: 35vh;
+    height: 0.60rem;
+    background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+    color: transparent;
+    left: 76px;
+    position: relative;
+}
+
+.service-buttonsf {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-left: 70px;
+  margin-right: 65px;
+  justify-content: left;
+}
+
+.service-btnf {
+  padding: 10px 70px; /* Increased padding to make the button larger */
+  border: 2px solid black;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 0px; /* Added slight rounding to the corners */
+  background:#fff;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition effects */
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+}
+
+.service-btnf:hover {
+  background: linear-gradient(45deg, #73cfca, #8860d0); /* Gradient effect on hover */
+  transform: scale(1.05); /* Slightly increase the button size on hover */
+  border: none;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+  color: #fff;
+
+}
