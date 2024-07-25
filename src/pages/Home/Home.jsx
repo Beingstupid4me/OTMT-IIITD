@@ -17,7 +17,13 @@ function Home() {
         <div className="otmt">
         <h1>Office of Technology Management and Transfer</h1>
         <br />
-          <div className="title_decoration"> hello</div>
+        <div
+            className="title_decoration"
+            style={{ height: "0.6rem", width: "35vh", "margin-right": "7vh", "marginTop":"1vh" }}
+          >
+            {" "}
+            hello
+          </div>
         <br />
         <p>
           At IIIT Delhi, we are driven by innovation, collaboration, and the

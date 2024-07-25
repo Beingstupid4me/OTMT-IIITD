@@ -10,6 +10,7 @@ import Tech from './pages/Technology/Tech';
 import Res from './pages/Resources/Res';
 import Coll from './pages/Collaborate/Coll';
 import Eve from './pages/Events/Eve';
+import Cont from './pages/Contact/Cont';
 
 
 
@@ -29,6 +30,8 @@ function App() {
       <Route path='/resources' element={<Res />} />
       <Route path='/collaborate' element={<Coll />} />
       <Route path='/events' element={<Eve />} />
+      <Route path='/contact' element={<Cont />} />
+      
       
       
 

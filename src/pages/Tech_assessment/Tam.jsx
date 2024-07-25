@@ -97,7 +97,13 @@ function Tam() {
       <section className="des">
         <h1>Technology Maturity Assessment</h1>
         <br />
-        <div className="rect"> hello</div>
+        <div
+            className="title_decoration1"
+            style={{ height: "0.6rem", width: "35vh", "margin-right": "7vh", "marginTop":"2vh" }}
+          >
+            {" "}
+            hello
+          </div>
         <br />
         <p>
           Our goal is to create a dynamic ecosystem where innovation thrives.
@@ -110,7 +116,13 @@ function Tam() {
 
       <div className="title-container">
           <h2>Benefits</h2>
-          <div className="title_decoration"> hello </div>
+          <div
+            className="title_decoration"
+            style={{ height: "0.6rem", width: "35vh", "margin-right": "7vh", "marginTop":"2vh" }}
+          >
+            {" "}
+            hello
+          </div>
         </div>
       <section className="services-listt">
       
