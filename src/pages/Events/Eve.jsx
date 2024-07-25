@@ -30,13 +30,31 @@ function Eve() {
               Stay tuned for upcoming events. Coming up soon.
             </p>
 
-            <div className="past_event">
-                
+           
+            <div className="sub_cards">
+                <div className="sub_card1">
+                  <p className="date">15-16</p>
+                  <p className="month">March 2024</p>
+                  <p className="title">RIISE 2024</p>
+                  <p className="disc">
+                    Research Innovation and Incubation Showcase Events (RIISE)
+                  </p>
+                  <p className="loc">IIIT Delhi</p>
             </div>
-            <div className="past_event"></div>
 
+            <div className="sub_card1">
+                  <p className="date">20</p>
+                  <p className="month">November 2023</p>
+                  <p className="title">SESSION</p>
+                  <p className="disc">
+                    An introductory and informative session on Technology
+                    Readiness Level (TRL) was conducted by Dr. Alok Nikhil Jha.
+                  </p>
+                  <p className="loc">C101 LHC</p>
+            </div>
+             
+            </div>
           </div>
-
         </div>
       </section>
     </div>

@@ -50,7 +50,8 @@
     align-items: center;
     justify-content: space-around;
     padding-top: 30px;
-    margin-right: 10vh;
+    margin-right: 80vh;
+    
 
     
     /* align-items: flex-start; Changed to flex-start to align items at the top */
@@ -76,7 +77,7 @@
 .event_type2{
     margin: 20px;
     text-align: left;
-    width: 12rem;
+    width: 28rem;
     height: 20rem;
     background: #FFFFFF;
     box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4); 
@@ -93,7 +94,7 @@
   .event_type1 p {
     font-size: 1.3rem;
     color: #8860D0;
-    margin-top: 1.0rem;
+    margin-top: 3.0rem;
     margin-bottom: 0rem;
     font-weight: bold;
     text-align: left;
@@ -103,7 +104,7 @@
   .event_type2 p {
     font-size: 1.3rem;
     color: #8860D0;
-    margin-top: 1.0rem;
+    margin-top: 3.0rem;
     margin-bottom: 0rem;
     font-weight: bold;
     text-align: left;
@@ -117,7 +118,7 @@
     font-size: 0.75rem;
     padding-bottom: 20px;
     text-align: left;
-    margin-top:0.5rem ;
+    margin-top:1.5rem ;
   }
   
   .event_type2 p.disc {
@@ -126,40 +127,123 @@
     font-size: 0.75rem;
     padding-bottom: 20px;
     text-align: left;
-    margin-top:0.5rem ;
+    margin-top:1.5rem ;
   }
 
 
-  .event_type1:hover {
-    height: 19rem ;
-    transition: 0.7s ease-in-out;
-    background: radial-gradient(132.22% 118% at 7.5% 0%, #8860D0 0%, #73CFCA 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    .sub_cards{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 0px;
+        margin-right: 0vh;
+        width: 50vh;
+        height: 15vh;
+        margin-top: 20vh;
+
+    
+        
+        /* align-items: flex-start; Changed to flex-start to align items at the top */
+        
+       
+      }
+    
+      .sub_card1{
+        margin: 20px;
+        text-align: left;
+        width: 12rem;
+        height: 20rem;
+        background: #FFFFFF;
+        box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4); 
+        padding-bottom: 120px;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        background:radial-gradient(132.22% 118% at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
+
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between; */
+    }
+    
+
+  
+
+    .event_type1:hover p {
+        color:#FFFFFF;
+       padding-left: 0.75rem;
+       padding-right: 0.75rem;
+       transition: 0.7s ease-in-out;
+       text-align: left;
+     }
+     
+     
+   
+     .event_type1:hover p.disc {
+       display: none;
+       transition: 0.7s ease-in-out;
+       padding-top: 0px;
+       padding-bottom: 20px ;
+       text-align:justify;
+       padding-left: 0.75rem;
+       padding-right: 0.75rem;
+     }
+
+
+     .event_type2 p.date{
+        color: #FFFFFF;
+        font-size: 0.75rem;
+        padding-bottom: 20px;
+        text-align: left;
+        margin-top:0.5rem ;
+
+     }
+
+     .event_type2 p.month{
+        color: #FFFFFF;
+        font-size: 0.75rem;
+        padding-bottom: 20px;
+        text-align: left;
+        margin-top:0.5rem ;
+
+     }
+
+     .event_type2 p.title{
+        color: #FFFFFF;
+        font-size: 0.75rem;
+        padding-bottom: 20px;
+        text-align: left;
+        margin-top:0.5rem ;
+
+     }
+
+     .event_type2 p.disc{
+        color: #FFFFFF;
+        font-size: 0.75rem;
+        padding-bottom: 20px;
+        text-align: left;
+        margin-top:0.5rem ;
+
+     }
+
+     .event_type2 p.loc{
+        color: #FFFFFF;
+        font-size: 0.75rem;
+        padding-bottom: 20px;
+        text-align: left;
+        margin-top:0.5rem ;
+
+     }
+
+
+
+
+
 
    
-    text-align: left;
-  }
-  
-  .event_type1:hover p {
-     color:#FFFFFF;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    transition: 0.7s ease-in-out;
-    text-align: left;
-  }
-  
-  
-
-  .event_type1:hover p.disc {
-    display: none;
-    transition: 0.7s ease-in-out;
-    padding-top: 0px;
-    padding-bottom: 20px ;
-    text-align:justify;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-  
-  
+     
+          
   
  
    
