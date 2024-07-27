@@ -1,214 +1,8 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
-.home {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    text-align: center;
-  }
-  
-  .otmt {
-    margin-bottom: 50px;
-    width: 612px;
-    top: 138px;
-    left: 108px;
-    gap: 0px;
-    opacity: 0px;
-    
-  }
-  
-  .otmt h1 {
 
-    margin: 10px;
-    width: 612px;
-    top: 138px;
-    left: 308px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Source Sans Pro;
-    font-size: 48px;
-    font-weight:bold;
-    line-height: 60.34px;
-    text-align: left;
-    color: #328D89;
-    margin-left: 80px;
-
-
-
-
-  }
-  
-  .otmt p {
-    font-size: 16px; 
-    font-weight: 400; 
-    line-height: 1.5; 
-    margin-bottom: auto;
-    text-align: left;
-    width: 499px;
-    height: 162px;
-    top: 353px;
-    left: 108px;
-    gap: 0px;
-    opacity: 0px;
-    margin-left: 80px;
-    
-
-}
-   */
-/* .what-we-do {
-    margin-bottom: 40px;
-    
-    
-  }
-  
-  .what-we-do h2 {
-    margin-bottom: 20px;
-    font-family: Source Sans Pro;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 30.17px;
-    text-align: right;
-    width: 125px;
-    height: 30px;
-    top: 182px;
-    left: 1279px;
-    gap: 0px;
-    opacity: 0px;
-    color: #328D89;
-    font-weight: bold;
-    }
-  
-  .services {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .service-item {
-    
-    color: white;
-    padding: 45px;
-    margin: 20px;
-    font-size: 16px;
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    top: 238px;
-    left: 839px;
-    gap: 0px;
-    border-radius: 2px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    background: radial-gradient(circle at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
-
-
-
-  }
-  
-  .technology-highlights {
-    margin-bottom: 40px;
-  }
-  
-  .technology-highlights h2 {
-    font-size: 30px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .highlights {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .highlight-item {
-    margin: 20px;
-    text-align: center;
-  }
-  
-  .highlight-item img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
-  .highlight-item p {
-    font-size: 18px;
-    color: #555;
-  }
-   */
-/* what-we-do {
-    margin-top: 50px;
-}
-
-.what-we-do h2 {
-    margin-bottom: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 30.17px;
-    text-align: left;
-    color: #328D89;
-}
-
-.services {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-.service-item {
-    color: white;
-    padding: 45px;
-    margin: 20px;
-    font-size: 16px;
-    text-align: center;
-    width: 150px;
-    height: 100px;
-    border-radius: 2px;
-    background: radial-gradient(circle at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
-}
-
-.technology-highlights {
-    margin-top: 50px;
-    width: 100%;
-    max-width: 1200px;
-}
-
-.technology-highlights h2 {
-    font-size: 30px;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.highlights {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.highlight-item {
-    margin: 20px;
-    text-align: center;
-}
-
-.highlight-item img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-.highlight-item p {
-    font-size: 18px;
-    color: #555;
-} */
 
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
 .home {
-  font-family: Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 20px;
   text-align: center;
   display: grid;
@@ -348,7 +142,7 @@
   justify-content: space-around;
 }
 
-.background_block {
+.back_block {
   position: relative;
   width: 100vw;
   left: 0;
@@ -371,7 +165,7 @@
 
 .technology-highlights h2 {
   font-size: 1.5rem;
-  color: #333;
+  color: #328d89;
   margin-bottom: 20px;
   font-weight: 900;
   margin-bottom: 0.625rem;

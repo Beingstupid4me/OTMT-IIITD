@@ -119,25 +119,48 @@ function Home() {
           <h2>Technology Highlights</h2>
           <div className="title_decoration" style={{"height" : "0.25rem", "width" : "25vw"}}> hello</div>
           <div className="highlights">
+
             <div className="highlight-item">
               <img src={logo1} alt="Seek and Suspect" />
               <p>Seek and Suspect</p>
               <p className='text'> The novel aspect of this project lies in an innovative and fully automated technology for facial image retrieval in criminal investigations.</p>
             </div>
+
             <div className="highlight-item">
               <img src={logo2} alt="Cloud Labs" />
               <p>Cloud Labs</p>
+              <p className="text">
+                {" "}
+                Cloud Lab is an innovative platform at the forefront of
+                reshaping hands-on learning for the digital era.
+              </p>
             </div>
+
             <div className="highlight-item">
               <img src={logo3} alt="TATDC" />
               <p>TATDC</p>
+              <p className="text">
+                {" "}
+                The Trainer and Tester for Digital Circuits (TATDC) is an
+                innovative project that leverages advanced technology to provide
+                a comprehensive solution.
+              </p>
             </div>
+
             <div className="highlight-item">
               <img src={logo4} alt="FOODLE" />
               <p>FOODLE</p>
+              <p className="text">
+                {" "}
+                Foodle, a culinary word game, capitalizes on the intrinsic
+                connection between language and food.
+              </p>
             </div>
+
           </div>
-          <div className="background_block"> hello  </div>
+
+
+          <div className="back_block"> hello  </div>
         </div>
       </section>
 

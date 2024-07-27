@@ -1,6 +1,9 @@
 import React from "react";
 import "./facinn.css";
 import { Link } from "react-router-dom";
+import FaqPopup from "../../components/faq";
+
+
 
 function FacInn() {
   return (
@@ -57,10 +60,23 @@ function FacInn() {
         </div>
       </section>
       <div className="service-buttonsf">
-        <button className="service-btnf">Schedule a Meeting</button>
+       
+        <a href="https://calendar.google.com/calendar/u/0/r/eventedit?add=alok@iiitd.ac.in&cls=0&hl=en" target="_blank" rel="noopener noreferrer">
+          <button className="service_btn">Schedule a Meeting</button>
+        </a>
+        <Link to="/events">
         <button className="service-btnf">Upcoming Events</button>
+        </Link>
+        <Link to="/events">
         <button className="service-btnf">Past Events Reports</button>
+        </Link>
+       
+        
+        
       </div>
+      <div id="back_block_facinn">   </div>
+
+      <FaqPopup />
     </div>
   );
 }

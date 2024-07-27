@@ -6,7 +6,9 @@ import logo3 from '../../images/partners.png';
 
 
 
+
 import { Link } from "react-router-dom";
+import FaqPopup from "../../components/faq";
 
 function Res() {
   return (
@@ -15,7 +17,7 @@ function Res() {
         <div className="res">
           <h1>Resources</h1>
           <br />
-          <div className="title_decoration"> hello</div>
+          <div className="line_res"> hello</div>
           <br />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
@@ -71,9 +73,13 @@ function Res() {
 
 
 
-
         </div>
+
       </section>
+
+
+      <div id="back_block_resource">   </div>
+        <FaqPopup />
     </div>
   );
 }

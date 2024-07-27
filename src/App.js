@@ -11,6 +11,14 @@ import Res from './pages/Resources/Res';
 import Coll from './pages/Collaborate/Coll';
 import Eve from './pages/Events/Eve';
 import Cont from './pages/Contact/Cont';
+import Lisc from './pages/Liscensing/Lisc';
+import IPR_man from './pages/IPR/IPR_man';
+import Startup from './pages/Startup_fac/Startup';
+import Tech_res from './pages/Tech_Research/Tech_res';
+import Tech_tech from './pages/Tech_Technology/Tech_tech';
+
+
+
 
 
 
@@ -31,6 +39,15 @@ function App() {
       <Route path='/collaborate' element={<Coll />} />
       <Route path='/events' element={<Eve />} />
       <Route path='/contact' element={<Cont />} />
+      <Route path='/Lisc' element={<Lisc />} />
+      <Route path='/Ipr' element={<IPR_man />} />
+      <Route path='/Startup' element={<Startup />} />
+      <Route path='/Tech_res' element={<Tech_res />} />
+      <Route path='/Tech_tech' element={<Tech_tech />} /> 
+
+      
+      
+
       
       
       

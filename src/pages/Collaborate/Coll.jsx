@@ -12,7 +12,7 @@ function Coll() {
           <br />
           <h1>looking for:</h1>
           <br />
-          <div className="title_decoration"> hello</div>
+          <div className="line_coll"> hello</div>
           <br />
           <p>
             Whether you're a company seeking innovative solutions, an individual
@@ -36,9 +36,15 @@ function Coll() {
               is ready to explore collaborative opportunities to address your
               R&D requirements.
             </p>
-            <div className="btn">
-              <button className="service-btn">Submit Your Details</button>
-            </div>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdDMThVAiQwRLV6wkoM3YFGQXmu6IJ7gpH5jShh1xJeY8ZTFw/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="coll_btn">
+                <button className="c_btn">Submit Your Details</button>
+              </div>
+            </a>
           </div>
 
           <div className="collab_type1">
@@ -53,9 +59,15 @@ function Coll() {
               Share your interests and requirements through our collaboration
               portal.
             </p>
-            <div className="btn">
-              <button className="service-btn">Submit Your Details</button>
-            </div>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdDMThVAiQwRLV6wkoM3YFGQXmu6IJ7gpH5jShh1xJeY8ZTFw/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="coll_btn">
+                <button className="c_btn">Submit Your Details</button>
+              </div>
+            </a>
           </div>
 
           <div className="collab_type1">
@@ -70,9 +82,15 @@ function Coll() {
               commercializing technologies and can explore opportunities for
               licensing or industry partnerships.
             </p>
-            <div className="btn">
-              <button className="service-btn">Submit Your Details</button>
-            </div>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdDMThVAiQwRLV6wkoM3YFGQXmu6IJ7gpH5jShh1xJeY8ZTFw/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="coll_btn">
+                <button className="c_btn">Submit Your Details</button>
+              </div>
+            </a>
           </div>
 
           <div className="collab_type1">
@@ -87,14 +105,20 @@ function Coll() {
               future opportunities, we encourage you to share your details
               through our Tech Transfer platform.
             </p>
-            <div className="btn">
-              <button className="service-btn">Submit Your Details</button>
-            </div>
-         </div>
-          
-         
+            <a
+              href="https://calendar.google.com/calendar/u/0/r/eventedit?add=alok@iiitd.ac.in&cls=0&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="coll_btn">
+                <button className="c_btn">Submit Your Details</button>
+              </div>
+            </a>
+          </div>
         </div>
       </section>
+
+      <div id="back_block_coll"> </div>
     </div>
   );
 }

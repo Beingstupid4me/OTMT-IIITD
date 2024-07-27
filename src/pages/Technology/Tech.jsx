@@ -13,7 +13,7 @@ function Tech() {
         <div className="technology">
           <h1>Technology</h1>
           <br />
-          <div className="title_decoration"> hello</div>
+          <div className="line_tech"> hello</div>
           <br />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
@@ -31,7 +31,11 @@ function Tech() {
         <div className="tech_types">
           <div className="tech_type1">
             <img src={logo1} alt="Our Research" />
-            <p>Our Research</p>
+
+            <Link to="/Tech_res">
+              <p>Our Research</p>
+            </Link>
+           
             <p className="para">
               {" "}
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
@@ -42,7 +46,10 @@ function Tech() {
           </div>
           <div className="tech_type1">
             <img src={logo2} alt="Our Technologies" />
-            <p>Our Technologies</p>
+
+            <Link to="/Tech_tech">
+              <p>Our Technologies</p>
+            </Link>
             <p className="para">
               {" "}
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
@@ -53,6 +60,8 @@ function Tech() {
           </div>
         </div>
       </section>
+
+      <div id="back_block_technology">   </div>
     </div>
   );
 }

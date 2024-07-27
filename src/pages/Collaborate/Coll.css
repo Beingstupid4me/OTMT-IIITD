@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
 .chome {
-  font-family: Source Sans Pro;
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 20px;
   text-align: center;
   display: grid;
@@ -56,28 +56,22 @@
     align-items: center;
     justify-content: space-around;
     padding-top: 30px;
-    margin-right: 10vh;
-
-    
-    /* align-items: flex-start; Changed to flex-start to align items at the top */
-    
-   
+  
+    margin-top: 9vh;
   }
 
-  .collab_type1{
-    margin: 20px;
-    text-align: left;
-    width: 12rem;
-    height: 20rem;
-    background: #FFFFFF;
-    box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4); 
-    padding-bottom: 120px;
-    padding-left: 2vh;
-    padding-right: 2vh;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
-}
+    .collab_type1 {
+      margin: 20px;
+      text-align: left;
+      width: 12rem;
+      height: 25rem;
+      background: #ffffff;
+      box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+      padding: 2vh; /* Updated */
+      display: flex; /* Updated */
+      flex-direction: column; /* Updated */
+      justify-content: space-between; /* Updated */
+    }
 
   
 
@@ -98,10 +92,12 @@
     padding-bottom: 20px;
     text-align: left;
     margin-top:0.5rem ;
+    margin-top: 0rem;
+    padding-top: 0rem;
   }
   
   .collab_type1:hover {
-    height: 19rem ;
+    height: 25rem ;
     transition: 0.7s ease-in-out;
     background: radial-gradient(132.22% 118% at 7.5% 0%, #8860D0 0%, #73CFCA 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 
@@ -129,46 +125,71 @@
     padding-right: 0.75rem;
   }
   
-  .btn{
+  .coll_btn{
     text-align: left;
     border: none;
 
 
   }
 
-  .service-btn {
-    padding: 15px 33px; /* Increased padding to make the button larger */
-    border:none;
-    color:#FFFFFF;
-    font-weight: bold;
-    border-radius: 0px; /* Added slight rounding to the corners */
-    cursor: pointer;
-    transition: background 0s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition effects */
-    box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
-    background: radial-gradient(132.22% 118% at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
-    text-align: left;
-    margin-bottom: 0.5rem;
+  .c_btn {
+  
+  padding: 10px 20px; /* Updated for smaller padding */
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background 0s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+  background: radial-gradient(132.22% 118% at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+  text-align: left;
   }
 
-  .collab_type1:hover button.service-btn{
+  .collab_type1:hover button.c_btn{
 
-    padding: 15px 33px; /* Increased padding to make the button larger */
-    border: 2px solid black;
-    color: #000000;
-    font-weight: bold;
-    border-radius: 0px; /* Added slight rounding to the corners */
-    cursor: pointer;
-    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition effects */
-    box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
-    background:#fff;
-    text-align: left;
-    margin-bottom: 50px;
-    margin-top: 100px;
+    padding: 10px 20px; /* Updated */
+    border: 2px solid black; /* Updated */
+    color: #000000; /* Updated */
+    font-weight: bold; /* Updated */
+    border-radius: 0px; /* Updated */
+    cursor: pointer; /* Updated */
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; /* Updated */
+    box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4); /* Updated */
+    background: #fff; /* Updated */
+    text-align: left; /* Updated */
+    margin-top: auto; /* Updated */
 
 
   }
   
+  .line_coll {
+    width: 35vh;
+    height: 0.6rem;
+    background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+    color: transparent;
+    margin-left: 0vh;
+  
+  }
 
+  #back_block_coll {
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: radial-gradient(circle at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
+    z-index: -1;
+    color: transparent;
+    margin-top: -20vh;
+    height: 40vh;
+    margin-bottom: -40vh;
+    cursor: none;
+    grid-column: 1/-1;
+
+    padding-left: 20px;
+      padding-right: 20px;
+      margin-left: -20px;
+      margin-right: -20px;
+  }
 
   
    

@@ -41,16 +41,23 @@
 .services-listo {
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
-    gap: 150px;      /*Add some space between items */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 10rem;     
     justify-content: center;
     align-items: center;
     margin-top: 1vh;
     margin-bottom: 0.51vh;
     overflow: hidden; 
-    margin-left: -2.8vh;
-    margin-right: -2.8vh;
-    
+   
+  }
+  .listo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+
+
   }
 
 .service-item1o {
@@ -79,9 +86,9 @@
   
   
 }
-.service-item1o a {   /* <-- Highlighted Change */
-  text-decoration: none;  /* <-- Highlighted Change */
-  color: inherit; /* Ensure the text color is inherited */  /* <-- Highlighted Change */
+.service-item1o a {  
+  text-decoration: none;  
+  color: inherit;
 }
 
 .service-item1o h2 {
@@ -95,6 +102,21 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
+.service-item1o p.dis {
+  display: none; 
+  color:#333;
+  font-size: 0.75rem;
+  height: 3rem;
+  margin-top: 3rem;
+}
+
+.service-item1o:hover p.dis {
+  display: block;
+  transition: 0.3s ease-in-out;
+}
+
+
+
 
 
 .rect{
@@ -107,18 +129,23 @@
   }
   
 
-  .background_block {
-    grid-column: 1/6;
+   .back_block_ser {
+    grid-column: 1/-1;
     position: relative;
-    width: 100vw;
+    width: 100%;
     left: 0;
     right: 0;
     background: radial-gradient(circle at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
     z-index: -1;
     color: transparent;
-    margin-top: -10vh;
+    margin-top: 5vh;
     height: 37.8vh;
     margin-bottom: -30vh;
-  }
+    margin-left: -37px;
+    margin-right: -37px;
+  } 
+
   
+   
+
   
