@@ -36,7 +36,10 @@ function Res() {
 
           <div className="Res_type1">
             <img src={logo1} alt="Faculty and Staff" />
+            <Link to="/Fac_Res">
             <p>Faculty and Staff</p>
+            </Link>
+           
             <p className="Res_para">
               {" "}
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do

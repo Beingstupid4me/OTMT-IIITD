@@ -95,15 +95,15 @@ function Resrch() {
           <button className="service_btn">Commercialize your Technology</button>
         </a>
 
-        
-
         <button className="service_btn">Looking for Technology</button>
       </div>
 
       <h2 className="ipr-heading">Our IPRs</h2>
       <div className="underline3"> hello</div>
       <div className="btn2">
-        <button className="service_btn">List of IPRs</button>
+        <Link to="/Ipr_Table">
+          <button className="service_btn">List of IPRs</button>
+        </Link>
       </div>
 
       <div id="back_block_research"> </div>

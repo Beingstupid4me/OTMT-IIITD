@@ -92,6 +92,23 @@ function Eve() {
             <p className="disc">
               Stay tuned for upcoming events. Coming up soon.
             </p>
+            <div className="sub_cards">
+              <div className="sub_card">
+                <p className="date">15-16</p>
+                <p className="month">March 2024</p>
+                <p className="title">RIISE 2024</p>
+                <p className="description">
+                  Research Innovation and Incubation Showcase Events (RIISE)
+                </p>
+                <p className="loc">IIIT Delhi</p>
+                <div className="event_btn">
+                  <button className="know">Know More</button>
+                </div>
+              </div>
+            </div>
+
+
+              
           </div>
 
           <div className="event_type2">

@@ -11,7 +11,7 @@ function FacInn() {
       <section className="des">
         <h1>Facilitate Innovation and Awareness</h1>
         <br />
-        <div className="rect"> hello</div>
+        <div className="rec"> hello</div>
         <br />
         <p>
           Our goal is to create a dynamic ecosystem where innovation thrives.

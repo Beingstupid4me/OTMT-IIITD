@@ -72,6 +72,7 @@
   border: 1px solid #ffffff;
   /* box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4); */
   box-shadow: 10px 8px 20px 0px #364B8180;
+  
 
   opacity: 1; 
   background: #FFFFFF;
@@ -107,7 +108,7 @@
   box-shadow: 3px 4px 20px 0px #FFFFFF;
 }
 
-.rect{
+.rec{
     width: 35vh;
     height: 0.60rem;
     background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);

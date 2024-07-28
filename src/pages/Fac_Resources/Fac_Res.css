@@ -1,0 +1,218 @@
+/* 
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+.our_ser {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px;
+  color: #333;
+}
+
+.introduce {
+  margin-bottom: 40px;
+}
+
+.introduce h1 {
+  position: relative;
+  gap: 0px;
+  font-family: 'Source Sans Pro';
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: left;
+  color: #328d89;
+  margin: 0;
+  margin-left: 70px;
+}
+
+.introduce p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 48%;
+  line-height: 1.6;
+  text-align: left;
+  margin-left: 70px;
+}
+
+.ser_list_sec {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  gap: 20px;
+}
+
+.fac_services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  margin-left: 10px;
+  gap: 150px; 
+  row-gap: 20px;
+}
+
+.fac_item {
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  border-radius: 0px;
+  background: linear-gradient(145deg, #8860D0, #73CFCA);
+  color: #ffffff;
+   box-shadow: 3px 4px 20px 0px #FFFFFF;
+
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-left: 20px;
+}
+
+.fac_item h2 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.fac_item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.back_block_fac {
+    position: absolute;
+    width: 104%;
+    height: 30%;
+    background: radial-gradient(circle at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
+    background: linear-gradient(145deg, #8860D0, #73CFCA);
+    top: 80%;
+    bottom: 10%;
+    left:1;
+    z-index: 0;
+    margin-bottom: 1rem;
+  }
+
+.title_underline {
+  background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+  color: transparent;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+.our_ser {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px;
+  color: #333;
+}
+
+.introduce {
+  margin-bottom: 40px;
+}
+
+.introduce h1 {
+  position: relative;
+  gap: 0px;
+  font-family: 'Source Sans Pro';
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: left;
+  color: #328d89;
+  margin: 0;
+  margin-left: 70px;
+}
+
+.introduce p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 48%;
+  line-height: 1.6;
+  text-align: left;
+  margin-left: 70px;
+}
+
+.ser_list_sec {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  gap: 20px;
+}
+
+.fac_services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Adjust to ensure 4 items per row */
+  gap: 60px 150px; /* Row gap and column gap */
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  margin-left: 0px;
+}
+
+.fac_item {
+  padding: 1rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  border-radius: 0px;
+  background: linear-gradient(145deg, #8860D0, #73CFCA);
+  color: #ffffff;
+  box-shadow: 3px 4px 20px 0px #FFFFFF;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-right: 30px;
+}
+
+.fac_item h2 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.fac_item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.back_block_fac {
+  position: absolute;
+  width: 100%;
+  height: 50%; /* Adjusted height */
+  background: linear-gradient(145deg, #8860D0, #73CFCA);
+  top: 50%;
+  left: 0;
+  z-index: 0;
+  margin-bottom: 1rem;
+}
+
+.back_block_fac {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background: radial-gradient(circle at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
+    background: linear-gradient(145deg, #8860D0, #73CFCA);
+    top: 90%;
+    bottom: 60%;
+    left:1;
+    z-index: 0;
+    margin-bottom: 50rem;
+  }
+
+
+.title_underline {
+  background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+  color: transparent;
+}

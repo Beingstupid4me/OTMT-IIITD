@@ -16,6 +16,9 @@ import IPR_man from './pages/IPR/IPR_man';
 import Startup from './pages/Startup_fac/Startup';
 import Tech_res from './pages/Tech_Research/Tech_res';
 import Tech_tech from './pages/Tech_Technology/Tech_tech';
+import Fac_Res from './pages/Fac_Resources/Fac_Res';
+import Ipr_Table from './pages/IPR_TABLE/Ipr_Table';
+
 
 
 
@@ -43,7 +46,11 @@ function App() {
       <Route path='/Ipr' element={<IPR_man />} />
       <Route path='/Startup' element={<Startup />} />
       <Route path='/Tech_res' element={<Tech_res />} />
-      <Route path='/Tech_tech' element={<Tech_tech />} /> 
+      <Route path='/Tech_tech' element={<Tech_tech />} />
+      <Route path='/Fac_Res' element={<Fac_Res />} /> 
+      <Route path='/Ipr_Table' element={<Ipr_Table />} /> 
+
+      
 
       
       

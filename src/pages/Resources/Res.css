@@ -120,6 +120,9 @@
   height: 12rem;
 }
 
+.Res_type1 a {
+  text-decoration: none;
+}
 .line_res {
   width: 35vh;
   height: 0.6rem;
