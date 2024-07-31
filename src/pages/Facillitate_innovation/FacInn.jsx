@@ -1,7 +1,7 @@
 import React from "react";
 import "./facinn.css";
 import { Link } from "react-router-dom";
-import FaqPopup from "../../components/faq";
+import FaqPopup1 from "../../components/faq1";
 
 
 
@@ -76,7 +76,7 @@ function FacInn() {
       </div>
       <div id="back_block_facinn">   </div>
 
-      <FaqPopup />
+       <FaqPopup1 /> 
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Lisc.css";
 import { Link } from "react-router-dom";
-import FaqPopup from "../../components/faq";
+import FaqPopup4 from "../../components/faq4";
 
 
 function Lisc() {
@@ -119,7 +119,7 @@ function Lisc() {
      
       </div>
       <div id="back_block_lis">   </div>
-      <FaqPopup />
+      <FaqPopup4 />
     </div>
   );
 }

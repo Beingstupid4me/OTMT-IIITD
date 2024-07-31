@@ -1,7 +1,7 @@
 import React from "react";
 import "./IPR_man.css";
 import { Link } from "react-router-dom";
-import FaqPopup from "../../components/faq";
+import FaqPopup3 from "../../components/faq3";
 function IPR() {
   return (
     <div className="ipr">
@@ -29,6 +29,40 @@ function IPR() {
           them.
         </p>
       </section>
+
+      {/* <section className="apply_ipr">
+        <div id="apply_ipr">
+          <h2>How to apply for IPR</h2>
+          <div
+            className="rect_decoration"
+            style={{ height: "0.25rem", width: "35vh", "margin-right": "7vh" }}
+          >
+            {" "}
+            hello
+          </div>
+          <div className="serv">
+            <div className="ipr_list">
+              <p>
+                 We have experts who can help you come up with a smart plan to
+                protect your ideas and guide you to see if it's new and
+                different enough to get legal protection.
+              </p>{" "}
+            </div>
+            <div className="ipr_list">
+              <p>
+                If we find that your idea is special, we will help you to fill
+                out paperwork and send it to the right office.
+              </p>
+            </div>
+            <div className="ipr_list">
+              <p>
+                If we find that your idea is special, we will help you to fill
+                out paperwork and send it to the right office.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> */}
 
       <div className="title-container">
         <h2>Benefits</h2>
@@ -99,13 +133,11 @@ function IPR() {
           target="_blank"
           rel="noopener noreferrer"
         >
-            <button className="service-btn">Apply for IPR</button>
+          <button className="service-btn">Apply for IPR</button>
         </a>
-
-      
       </div>
-      <div id="back_block_ipr">   </div>
-      <FaqPopup />
+      <div id="back_block_ipr"> </div>
+      <FaqPopup3 />
     </div>
   );
 }

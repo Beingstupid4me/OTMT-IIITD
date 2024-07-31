@@ -19,9 +19,8 @@ import Tech_tech from './pages/Tech_Technology/Tech_tech';
 import Fac_Res from './pages/Fac_Resources/Fac_Res';
 import Ipr_Table from './pages/IPR_TABLE/Ipr_Table';
 
-
-
-
+import Up_eve from './pages/Up_Events/Up_eve';
+import All_tech from './pages/All_Techno/All_tech';
 
 
 
@@ -49,6 +48,9 @@ function App() {
       <Route path='/Tech_tech' element={<Tech_tech />} />
       <Route path='/Fac_Res' element={<Fac_Res />} /> 
       <Route path='/Ipr_Table' element={<Ipr_Table />} /> 
+      <Route path='/all_tech' element={<All_tech />} /> 
+      <Route path='/up_eve' element={<Up_eve />} />
+
 
       
 

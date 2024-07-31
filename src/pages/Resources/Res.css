@@ -50,6 +50,7 @@
   align-items: center;
   justify-content: space-around;
   padding-left: 60px;
+  cursor: pointer;
 }
 
 .Res_type1 {
@@ -129,6 +130,7 @@
   background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
   color: transparent;
   margin-left: 0vh;
+  
 }
 
 #back_block_resource {

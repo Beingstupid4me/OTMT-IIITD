@@ -154,7 +154,7 @@
 
 .our-services {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 20px;
+  padding: 0px;
   color: #333;
 }
 
@@ -275,6 +275,7 @@
   color: #333;
   font-size: 0.75rem;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .service-item1o:hover p.dis {

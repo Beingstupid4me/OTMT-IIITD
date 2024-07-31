@@ -1,8 +1,7 @@
 import React from "react";
 import "./tech.css";
-import logo1 from '../../images/tech_1.png';
-import logo2 from '../../images/tech_2.png';
-
+import logo1 from "../../images/tech_1.png";
+import logo2 from "../../images/tech_2.png";
 
 import { Link } from "react-router-dom";
 
@@ -16,13 +15,11 @@ function Tech() {
           <div className="line_tech"> hello</div>
           <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            At the Office of Technology Management and Transfer (OTMT), we pride
+            ourselves on fostering innovation and advancing technology that
+            shapes the future. Our commitment is to harness cutting-edge
+            research and transform it into practical solutions that benefit
+            industry and society.
           </p>
         </div>
       </section>
@@ -35,13 +32,14 @@ function Tech() {
             <Link to="/Tech_res">
               <p>Our Research</p>
             </Link>
-           
+
             <p className="para">
               {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
+              We invest heavily in research and development, collaborating with
+              top-tier universities, industry experts, and research
+              institutions. This ensures that our technologies are at the
+              forefront of innovation and meet the highest standards of quality
+              and efficacy.
             </p>
           </div>
           <div className="tech_type1">
@@ -52,10 +50,10 @@ function Tech() {
             </Link>
             <p className="para">
               {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
+              At the Office of Technology Management and Transfer (OTMT), we are
+              dedicated to transforming groundbreaking research into innovative
+              technologies that drive progress and improve lives. Our diverse
+              portfolio of technologies reflects our commitment to excellence.
             </p>
           </div>
         </div>

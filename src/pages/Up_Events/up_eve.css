@@ -1,7 +1,7 @@
 
 
 
-  @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
 
 .ehome {
   font-family: 'Source Sans Pro', sans-serif;
@@ -19,14 +19,14 @@
   margin-left: 10vh;
 }
 
-.all_event {
+.event {
   margin-bottom: 40px;
   grid-column: 1;
   margin-left: 0vh;
   width: 400px;
 }
 
-.all_event h1 {
+.event h1 {
   width: 612px;
   top: 138px;
   left: 108px;
@@ -41,20 +41,22 @@
   margin: 0;
 }
 
-.all_event_types {
+.event_types {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   padding-top: 30px;
-  margin-right: 80vh;
+  margin-right: 0vh;
 }
 
-.all_event_type1 {
+
+
+.event_type2 {
   margin: 20px;
   text-align: left;
-  width: 12rem;
-  height: 22rem;
+  width: 62rem;
+  height: 25rem;
   background: #ffffff;
   box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
   padding-bottom: 120px;
@@ -62,20 +64,8 @@
   padding-right: 2vh;
 }
 
-.all_event_type2 {
-  margin: 20px;
-  text-align: left;
-  width: 28rem;
-  height: 22rem;
-  background: #ffffff;
-  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
-  padding-bottom: 120px;
-  padding-left: 2vh;
-  padding-right: 2vh;
-}
 
-.all_event_type1 p,
-.all_event_type2 p {
+.event_type2 p {
   font-size: 1.3rem;
   color: #8860d0;
   margin-top: 3.0rem;
@@ -84,8 +74,8 @@
   text-align: left;
 }
 
-.all_event_type1 p.all_disc,
-.all_event_type2 p.all_disc {
+
+.event_type2 p.disc {
   color: #555;
   font-size: 0.75rem;
   padding-bottom: 20px;
@@ -93,101 +83,85 @@
   margin-top: 1.5rem;
 }
 
-.all_sub_cards {
+.sub_cards {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content:right;
   padding-top: 0px;
   height: 13vh;
   margin-top: 14.5vh;
-  gap: 1vh;
+  gap: 0vh;
   cursor: pointer;
+  padding-left: 2vh;
 }
 
-.all_sub_card {
+.sub_card {
   text-align: left;
   width: 10rem;
-  height: 18rem;
+  height: 20rem;
   background: #ffffff;
   box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
   padding-bottom: 13px;
   padding-left: 2vh;
   padding-right: 2vh;
   background: radial-gradient(132.22% 118% at 7.5% 0%, #8860d0 0%, #73cfca 100%);
-  margin-left: 1vh;
-  margin-right: 1vh;
+  margin-left: 0vh;
+  margin-right: 7vh;
   margin-bottom: 4vh;
   transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, border 0.3s ease-in-out;
   position: relative; /* Ensure relative positioning for absolute positioning of button */
+  
 }
 
-.all_sub_card:hover {
+.sub_card:hover {
   transform: scale(1.05);
   background: radial-gradient(132.22% 118% at 7.5% 0%, #a7cee3 0%, #acd3d3 100%);
 }
 
-.all_sub_card p {
+.sub_card p {
   color: #ffffff;
 }
 
-.all_sub_card p.all_date {
+.sub_card p.date {
   font-size: 39px;
   font-weight: lighter;
   margin-top: 0.5rem;
 }
 
-.all_sub_card p.all_month {
+.sub_card p.month {
   font-size: 0.75rem;
   font-weight: lighter;
   margin-top: 0rem;
 }
 
-.all_sub_card p.all_title {
+.sub_card p.title {
   font-size: 1.75rem;
   font-weight: bolder;
   margin-top: 0.5rem;
 }
 
-.all_sub_card p.all_description {
+.sub_card p.description {
   font-size: 0.75rem;
   font-weight: lighter;
   margin-top: 0rem;
   padding-bottom: 80px;
 }
 
-.all_sub_card p.all_loc {
+.sub_card p.loc {
   font-size: 0.75rem;
   margin-top: 0.5rem;
 }
 
-.all_event_btn {
+.event_btn {
   text-align: left;
   border: none;
   
   
 }
 
-/* .know {
-   padding: 15px 20px; 
-  border: 2px solid #000000;
-  color: #000000;
-  font-weight: bold;
-  border-radius: 0px;
-  cursor: pointer;
-  background: #ffffff;
-  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
-  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: none; 
-  size:1rem;
-} */
 
-
-.all_know {
+.know {
   padding: 20px 15px;
   border: 2px solid #000000;
   color: #000000;
@@ -198,7 +172,7 @@
   transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
   box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
   position: absolute;
-  bottom: 20px;
+  bottom: 70px;
   left: 50%;
   transform: translateX(-50%);
   display: none; /* Hide the button initially */
@@ -207,20 +181,9 @@
   white-space: nowrap; /* Prevent text from wrapping to multiple lines */
 }
 
-.all_sub_card:hover .all_know {
-  display: block; /* Show the button on hover */
-  padding: 20px 33px;
-  text-align: left;
-  
-}
 
-/* .know:hover {
-  background: #000000;
-  color: #ffffff;
-  padding: 15px 33px
-} */
 
-.all_line_eve {
+.line_eve {
   width: 35vh;
   height: 0.6rem;
   background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
@@ -229,7 +192,7 @@
   margin-top: 2vh;
 }
 
-#all_back_block_event {
+#back_block_event {
   position: relative;
   width: 100%;
   left: 0;

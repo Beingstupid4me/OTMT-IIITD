@@ -73,7 +73,7 @@
 //   );
 // }
 
-// export default Techno;
+// export default function Techno;
 
 import React from "react";
 import "./Tech_tech.css";
@@ -115,10 +115,20 @@ function Techno() {
         </div>
       </section>
 
+      <section button_tech>
+      <div className="tech_explore">
+            <img src={logo2} alt="Our Technologies" />
+
+            <Link to="/all_tech">
+              <p>Explore More Technology</p>
+            </Link>
+          
+          </div>
+      </section>
+
       <section className="techno_highlights">
         <div id="techno_highlights">
           <div className="high">
-
             <div className="high_item">
               <img src={logo1} alt="Seek and Suspect" />
               <p>Seek and Suspect</p>
@@ -129,13 +139,12 @@ function Techno() {
                 investigations.
               </p>
               <a
-              href="https://iiitd.ac.in/otmt/assets/brochures/Seek%20and%20Suspect%20Catalogue.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-                  <button className="brochure_btn">Brochure</button>
-            </a>
-           
+                href="https://iiitd.ac.in/otmt/assets/brochures/Seek%20and%20Suspect%20Catalogue.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="brochure_btn">Brochure</button>
+              </a>
             </div>
 
             <div className="high_item">
@@ -146,13 +155,13 @@ function Techno() {
                 Cloud Lab is an innovative platform at the forefront of
                 reshaping hands-on learning for the digital era.
               </p>
-            
+
               <a
-              href="https://iiitd.ac.in/otmt/assets/brochures/Cloud%20Labs%20_%20Bridging%20Gaps%20in%20Remote%20Learning.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-                  <button className="brochure_btn">Brochure</button>
+                href="https://iiitd.ac.in/otmt/assets/brochures/Cloud%20Labs%20_%20Bridging%20Gaps%20in%20Remote%20Learning.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="brochure_btn">Brochure</button>
               </a>
             </div>
 
@@ -165,13 +174,13 @@ function Techno() {
                 innovative project that leverages advanced technology to provide
                 a comprehensive solution for digital circuit experimentation.
               </p>
-                
+
               <a
-              href="https://iiitd.ac.in/otmt/assets/brochures/TATDC.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-                  <button className="brochure_btn">Brochure</button>
+                href="https://iiitd.ac.in/otmt/assets/brochures/TATDC.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="brochure_btn">Brochure</button>
               </a>
             </div>
 
@@ -183,23 +192,37 @@ function Techno() {
                 Foodle, a culinary word game, capitalizes on the intrinsic
                 connection between language and food.
               </p>
-                    
+
               <a
-              href="https://iiitd.ac.in/otmt/assets/brochures/Foodle_%20Brochure.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-                  <button className="brochure_btn">Brochure</button>
+                href="https://iiitd.ac.in/otmt/assets/brochures/Foodle_%20Brochure.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="brochure_btn">Brochure</button>
               </a>
             </div>
           </div>
+       
 
-          <div className="background_block_tech"> hello </div>
+          {/* <div className="background_block_tech"> hello </div> */}
         </div>
-              
+        <div className="background_block_tech"> hello </div>
       </section>
+
     </div>
   );
 }
 
 export default Techno;
+
+  {/*    <div className="tech_button">
+        <Link to="/all_tech">
+          <button className="tech_btn">ALL TECH</button>
+        </Link>
+          </div>
+    <Link to="/Tech_tech">
+          <button className="tech_btn">TRL BASED</button>
+        </Link>
+        <Link to="/Tech_tech">
+          <button className="tech_btn">DOMAIN BASED</button>
+        </Link> */}

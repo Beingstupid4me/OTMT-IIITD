@@ -73,7 +73,7 @@
   /* box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4); */
   box-shadow: 10px 8px 20px 0px #364B8180;
   
-
+  cursor: pointer;
   opacity: 1; 
   background: #FFFFFF;
 }
@@ -99,6 +99,7 @@
     margin-top: 10px; 
     max-width: 100%; 
     padding: 10px 10px;
+    cursor: pointer;
 }
 
   

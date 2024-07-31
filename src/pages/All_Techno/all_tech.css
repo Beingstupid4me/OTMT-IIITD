@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+
+.all {
+  padding: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.techno_title {
+  text-align: center;
+  color: #8860d0;
+  margin-bottom: 20px;
+  font-size: 2rem; /* Adjusted for consistency with previous styles */
+  font-weight: bolder;
+}
+
+.techno_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.techno_table th, .techno_table td {
+  border: 1px solid #333;
+  padding: 12px; /* Adjusted padding for consistency with previous styles */
+}
+
+.techno_table th {
+  background-color: #8860d0; /* Adjusted to match your color scheme */
+  color: #ffffff; /* Updated for better contrast */
+  text-align: center;
+  font-weight: bolder;
+}
+
+.techno_table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Consistent with previous styles */
+}
+
+.techno_table tr:hover {
+  background-color: #ddd; /* Consistent with previous styles */
+}
+
+.techno_table td a {
+  color: #8860d0; /* Updated to match your color scheme */
+  text-decoration: none;
+  font-weight: bold; /* Consistent with previous styles */
+}
+
+.techno_table td a:hover {
+  text-decoration: underline;
+}
+
+/* New styles for search-bar */
+.search-bar {
+  display: flex;
+  justify-content: center; /* Center the search bar */
+  gap: 10px; /* Space between input fields */
+  margin-bottom: 20px; /* Space below the search bar */
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 200px; /* Adjust width as needed */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+}
+
+.search-bar input:focus {
+  border-color: #8860d0; /* Focus color to match your theme */
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Enhanced shadow on focus */
+}

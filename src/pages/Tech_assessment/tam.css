@@ -96,6 +96,7 @@
   transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth hover effects */
   padding-bottom: 60px;
   box-shadow: 10px 8px 20px 0px #364B8180;
+  cursor: pointer;
 
 }
 

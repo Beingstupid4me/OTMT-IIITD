@@ -1,7 +1,7 @@
 import React from "react";
 import "./Startup.css";
 import { Link } from "react-router-dom";
-import FaqPopup from "../../components/faq";
+import FaqPopup5 from "../../components/faq5";
 
 function Startup() {
   return (
@@ -47,7 +47,7 @@ function Startup() {
       </div>
 
       <div id="back_block_startup">   </div>
-      <FaqPopup />
+      <FaqPopup5 />
     </div>
   );
 }
