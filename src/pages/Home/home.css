@@ -92,7 +92,8 @@
   border: 1px solid #ffffff;
   box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
   opacity: 0px;
-  background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+  background: radial-gradient(132.22% 118% at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
+
 }
 
 .service-item p {
@@ -110,6 +111,7 @@
   transition: 0.3s ease-in-out;
   align-items: flex-start;
   text-align: left;
+  cursor: pointer;
 }
 
 .service-item:hover p {
@@ -147,13 +149,13 @@
   width: 100vw;
   left: 0;
   right: 0;
-  background: radial-gradient(circle at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
   z-index: -1;
   color: transparent;
   top: -25vh;
   height: 30vh;
   margin-bottom: -30vh;
   cursor: none;
+  background: radial-gradient(65.24% 517.33% at 56.12% 36.32%, #74A7C2 0%, #39AEA8 59.49%, #8860D0 100%);
 }
 
 .highlights {
@@ -234,6 +236,62 @@
   .home {
     grid-template-columns: 1fr;
   }
+}
+
+/* Add this at the end of your existing CSS */
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.custom-button {
+  background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
+  
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  margin: 10px 10px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+ /* white-space: nowrap;  Added this line */
+
+}
+
+.custom-button:hover {
+  background:#ffffff;
+  color: #000000;
+  border: 2px solid black;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+
+  
+}
+
+.highlight-item:hover .brochure_btn {
+  display: block;
+  margin-top: 6rem; /* Adjust this value to control the gap */
+  /* Other styles */
+}
+.brochure_btn:hover {
+  background-color:#8860D0;
+}
+.brochure_btn {
+  display: none;
+  margin: 10px auto 0;
+  padding: 20px 55px;
+  color:#ffffff;
+  
+
+  border: none;
+  border-radius: 0px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  background-color: #8860d0;
+  margin-bottom: 2rem;
+  /* transition: background-color 0.3s ease; */
 }
 
 

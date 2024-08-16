@@ -116,13 +116,14 @@
     padding-right: 20px;
     margin-left: -20px;
     margin-right: -20px;
-    background: radial-gradient(circle at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
     z-index: -1;
     color: transparent;
     top: -25vh;
     height: 50vh;
     margin-bottom: -40vh;
     cursor: none;
+   background: radial-gradient(65.24% 517.33% at 56.12% 36.32%, #74A7C2 0%, #39AEA8 59.49%, #8860D0 100%);
+
   }
   
   

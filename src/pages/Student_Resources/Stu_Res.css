@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 
 .resources-container {
+  /* padding: 20px; */
   margin-left: 80px;
   margin-right: 40px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -140,10 +141,11 @@
   background-color: #2980b9;
 }
 
-#back_block_fac_res{
+#back_block_stu_res{
   width: 108%;
     left: 0;
     right: 0;
+    background: radial-gradient(circle at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
     z-index: -1;
     color: transparent;
     margin-top: -20vh;
@@ -154,5 +156,4 @@
     padding-right: 0px;
     margin-left: -80px;
     margin-right: 0px;
-    background: radial-gradient(65.24% 517.33% at 56.12% 36.32%, #74A7C2 0%, #39AEA8 59.49%, #8860D0 100%);
 }

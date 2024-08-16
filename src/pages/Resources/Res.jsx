@@ -46,7 +46,10 @@ function Res() {
 
           <div className="Res_type1">
             <img src={logo2} alt="Students" />
+            <Link to="/stu_res">
             <p>Students</p>
+            </Link>
+           
             <p className="Res_para">
               {" "}
               A dedicated space designed to support students throughout their
@@ -59,7 +62,10 @@ function Res() {
 
           <div className="Res_type1">
             <img src={logo3} alt="Partners" />
+            <Link to="/Par_res">
             <p>Partners</p>
+            </Link>
+           
             <p className="Res_para">
               {" "}
               Serves as a comprehensive guide for external collaborators and

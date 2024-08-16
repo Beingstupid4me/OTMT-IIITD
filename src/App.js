@@ -21,6 +21,8 @@ import Ipr_Table from './pages/IPR_TABLE/Ipr_Table';
 
 import Up_eve from './pages/Up_Events/Up_eve';
 import All_tech from './pages/All_Techno/All_tech';
+import Stu_Res from './pages/Student_Resources/Stu_Res';
+import Par_Res from './pages/Partner_Resources/Par_Res';
 
 
 
@@ -50,6 +52,10 @@ function App() {
       <Route path='/Ipr_Table' element={<Ipr_Table />} /> 
       <Route path='/all_tech' element={<All_tech />} /> 
       <Route path='/up_eve' element={<Up_eve />} />
+      <Route path='/stu_res' element={<Stu_Res />} />
+      <Route path='/par_res' element={<Par_Res />} />
+
+
 
 
       

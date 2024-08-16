@@ -28,18 +28,20 @@
   border: 1px solid #333;
   padding: 12px 15px;
   text-align: left;
-  background: linear-gradient(145deg, #8860D0, #73CFCA);;
+  /* background: linear-gradient(145deg, #8860D0, #73CFCA);; */
+  background-color:#ffffff;
 }
 
 .ipr-table th {
-  background-color: #0C4E87;
+  
+  background-color: #8860d0;
   color: #ffffff;
   font-weight: 600;
 }
 
 .ipr-table td {
-  background-color: #F7E7B5;
-  color: #ffffff;
+  background-color:#ffffff;
+  color:#333;
 }
 
 .ipr-table tbody tr:nth-child(even) {
