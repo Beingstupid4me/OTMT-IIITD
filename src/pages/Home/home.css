@@ -33,7 +33,7 @@
   top: 138px;
   left: 108px;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1px;
   font-family: Source Sans Pro;
   font-size: 3rem;
   font-weight: bold;
@@ -64,7 +64,7 @@
   line-height: 1.875rem;
   text-align: right;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1px;
   color: #328d89;
   font-weight: bold;
   margin: auto 0;
@@ -91,7 +91,7 @@
   border-radius: 0;
   border: 1px solid #ffffff;
   box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
-  opacity: 0px;
+  opacity: 1px;
   background: radial-gradient(132.22% 118% at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
 
 }
