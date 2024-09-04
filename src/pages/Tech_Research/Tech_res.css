@@ -15,7 +15,7 @@
     width: 612px;
     left: 76px;
     gap: 0px;
-    opacity: 0px;
+    opacity: 1;
     font-family: Source Sans Pro;
     font-size: 3rem;
     font-weight: bold;
@@ -31,7 +31,7 @@
     width: 1000px;
     left: 76px;
     gap: 0px;
-    opacity: 0px;
+    opacity: 1;
     font-family: Source Sans Pro;
     font-size: 1.5rem;
     font-weight: bold;
