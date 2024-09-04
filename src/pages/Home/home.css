@@ -164,6 +164,7 @@
   align-items: center;
   justify-content: space-around;
   margin-bottom: 14vh;
+  margin-top: 3vh;
 }
 
 .technology-highlights h2 {
@@ -175,7 +176,7 @@
 }
 
 
-.highlight-item {
+/* .highlight-item {
   margin: 20px;
   text-align: center;
   width: 10rem;
@@ -231,7 +232,7 @@
 
 .highlight-item:hover img {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-}
+} */
 
 @media screen and (max-width: 768px) {
   .home {
@@ -258,7 +259,6 @@
   font-size: 1rem;
   transition: background-color 0.3s ease;
   box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
- /* white-space: nowrap;  Added this line */
 
 }
 
@@ -267,17 +267,20 @@
   color: #000000;
   border: 2px solid black;
   box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+  text-decoration: none;
 
   
 }
 
-.highlight-item:hover .brochure_btn {
+/* .highlight-item:hover .brochure_btn {
   display: block;
-  margin-top: 6rem; /* Adjust this value to control the gap */
-  /* Other styles */
+  margin-top: 6rem; 
+  text-decoration: none;
+  
 }
 .brochure_btn:hover {
   background-color:#8860D0;
+  text-decoration: none;
 }
 .brochure_btn {
   display: none;
@@ -292,9 +295,112 @@
   cursor: pointer;
   background-color: #8860d0;
   margin-bottom: 2rem;
-  /* transition: background-color 0.3s ease; */
+  text-decoration: none;
+ 
+}
+
+ */
+
+
+
+/*updated css for tech highlight*/
+
+
+
+.highlight-item {
+  margin: 30px;
+  text-align: center;
+  width: 12rem;
+  height: 13rem;
+  background: transparent;
+  padding-bottom: 8rem;
+  
+}
+
+.highlight-item img {
+  width: 12rem;
+  height: 10rem;
+  object-fit: cover;
+  box-shadow: 3px 4px 10px 0px #364B8180;
+
+}
+
+.highlight-item p {
+  font-size: 1.125rem;
+  color: #ffffff;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 
 
+.highlight-item:hover {
+  height: 19rem;
+  margin-top: -3rem;
+  margin-bottom: -4rem;
+  transition: 0.3s ease-in-out;
+  background: white;
+  text-align: left;
+}
+
+.highlight-item:hover p {
+  color: #000000;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.highlight-item:hover p.text {
+  display: block;
+  transition: 0.3s ease-in-out;
+  text-align: justify;
+
+}
+
+.highlight-item img {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.highlight-item:hover img {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.brochure_btn {
+  display: none;
+  margin: 10px auto 0;
+  padding: 20px 55px;
+  color:#ffffff;
+  border: none;
+  border-radius: 0px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  background-color: #8860d0;
+  margin-bottom: 2rem;
+  /* transition: background-color 0.3s ease; */
+}
+
+.highlight-item a {
+  text-decoration: none;
+}
+
+.brochure_btn:hover {
+  background-color:#8860D0;
+}
+
+.highlight-item p.text {
+  display: none;  
+  color: #333;
+  font-size: 0.75rem;
+  height: 3rem;
+  margin-bottom: 1rem; /* Increase bottom margin for spacing */
+  margin-top:1rem;
+}
+
+.highlight-item:hover .brochure_btn {
+  display: block;
+  margin-top: 6rem; /* Adjust this value to control the gap */
+  /* Other styles */
+}
 

@@ -191,7 +191,7 @@ function Home() {
               </p>
 
               <a
-                href="https://iiitd.ac.in/otmt/assets/brochures/TATDC.pdf"
+                href="https://iiitd.ac.in/otmt/assets/brochures/Cloud%20Labs%20_%20Bridging%20Gaps%20in%20Remote%20Learning.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
