@@ -15,6 +15,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
   justify-content: center;
+  margin-top:3vh;
 }
 
 .otmt {
@@ -100,6 +101,7 @@
   font-size: 0.7rem;
   color: rgba(255, 255, 255, 0.75);
   display: none;
+  text-align: justify;
 }
 
 .service-item:hover {
@@ -108,7 +110,9 @@
   padding-bottom: 2.0rem;
   width: 17vh;
   margin: 0.10rem;
-  transition: 0.3s ease-in-out;
+ transition: 0.3s linear;
+
+
   align-items: flex-start;
   text-align: left;
   cursor: pointer;
@@ -116,7 +120,11 @@
 
 .service-item:hover p {
   display: block;
-  transition: 0.3s ease-in-out;
+ transition: 0.3s linear;
+ font-size: 0.7rem;
+ text-align: justify;
+
+
 }
 
 

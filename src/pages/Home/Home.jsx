@@ -8,6 +8,8 @@ import logo2 from "../../images/logo_2.jpg";
 import logo3 from "../../images/logo_3.jpg";
 import logo4 from "../../images/logo_4.jpg";
 
+// import seek from "../documents/seek.pdf"
+
 function Home() {
   return (
     <div className="home">
