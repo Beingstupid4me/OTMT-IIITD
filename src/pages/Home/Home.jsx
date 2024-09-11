@@ -1,4 +1,3 @@
-
 import React from "react";
 import "./home.css";
 import { Link } from "react-router-dom";
@@ -7,8 +6,6 @@ import logo1 from "../../images/logo_1.jpg";
 import logo2 from "../../images/logo_2.jpg";
 import logo3 from "../../images/logo_3.jpg";
 import logo4 from "../../images/logo_4.jpg";
-
-// import seek from "../documents/seek.pdf"
 
 function Home() {
   return (
@@ -22,13 +19,10 @@ function Home() {
             style={{
               height: "0.6rem",
               width: "35vh",
-              "margin-right": "7vh",
+              marginRight: "7vh",
               marginTop: "1vh",
             }}
-          >
-            {" "}
-            hello
-          </div>
+          ></div>
           <br />
           <p>
             At IIIT Delhi, we are driven by innovation, collaboration, and the
@@ -47,33 +41,31 @@ function Home() {
           </p>
         </div>
       </section>
+
       <section className="what-we-do">
         <div id="what_we_do">
           <h2>What we do</h2>
           <div
             className="title_decoration"
-            style={{ height: "0.25rem", width: "35vh", "margin-right": "7vh" }}
-          >
-            {" "}
-            hello
-          </div>
+            style={{ height: "0.25rem", width: "35vh", marginRight: "7vh" }}
+          ></div>
           <div className="services">
             <div className="service-item">
-              Creating Awareness and Sensitization{" "}
+              Creating Awareness and Sensitization
               <p>
                 We raise awareness about technology and innovation, ensuring
                 that promising ideas don't go unnoticed.
-              </p>{" "}
+              </p>
             </div>
             <div className="service-item">
-              Find the best ways to sell Innovations{" "}
+              Find the best ways to sell Innovations
               <p>
                 We help figure out the smartest ways to market new inventions so
                 they stand out and reach the right people.
               </p>
             </div>
             <div className="service-item">
-              Finding and getting new Tech{" "}
+              Finding and getting new Tech
               <p>
                 We actively look for and help buy the latest technology and
                 intellectual property for companies, whether it’s from IIIT
@@ -81,7 +73,7 @@ function Home() {
               </p>
             </div>
             <div className="service-item">
-              Teaming up for special Research{" "}
+              Teaming up for special Research
               <p>
                 We work closely with partners to dive deep into research, either
                 to come up with new inventions or to explore new ways of doing
@@ -89,21 +81,21 @@ function Home() {
               </p>
             </div>
             <div className="service-item">
-              Supporting Intellectual Properties{" "}
+              Supporting Intellectual Properties
               <p>
                 We assist in managing intellectual property rights, protecting
                 innovations, and navigating the world of patents and copyrights.
               </p>
             </div>
             <div className="service-item">
-              Easing the handover of Technology{" "}
+              Easing the handover of Technology
               <p>
                 We make the process of passing new technologies from creators to
                 users or companies smooth and trouble-free.
               </p>
             </div>
             <div className="service-item">
-              Linking Up Innovators{" "}
+              Linking Up Innovators
               <p>
                 We connect people who create new technologies with those who
                 might want to use them, invest in them, or work with them to
@@ -111,46 +103,52 @@ function Home() {
               </p>
             </div>
             <div className="service-item">
-              Assessing Commercial Potential{" "}
+              Assessing Commercial Potential
               <p>
                 We evaluate the commercial viability of innovations and offer
                 strategic guidance.
               </p>
             </div>
           </div>
-          {/* Add buttons below */}
-          <div className="buttons-container">
-            <Link to="/Tech_tech">
-              <button className="custom-button">Are you a student and looking for technology</button>
-            </Link>
-            <Link to="/Fac_Res">
-              <button className="custom-button">Are you a faculty and looking for resources</button>
-            </Link>
-            <Link to="/Ipr">
-              <button className="custom-button">Apply For IPR</button>        
-            </Link>
-          </div>
         </div>
       </section>
 
+      {/* Move the buttons above the Technology Highlights heading and add two more buttons */}
+      <div className="buttons-container">
+        <Link to="/Tech_tech">
+          <button className="cus_button">
+            Are you a student and looking for technology
+          </button>
+        </Link>
+        <Link to="/Fac_Res">
+          <button className="cus_button">
+            Are you a faculty and looking for resources
+          </button>
+        </Link>
+        <Link to="/Ipr">
+          <button className="cus_button">Apply For IPR</button>
+        </Link>
+        <Link to="/Tech_Transfer">
+          <button className="cus_button">Apply Tech Transfer</button>
+        </Link>
+        <Link to="/Startup">
+          <button className="cus_button">Apply Startup</button>
+        </Link>
+      </div>
 
       <section className="technology-highlights">
         <div id="technology_highlights">
-        <h2>Technology Highlights</h2>
+          <h2>Technology Highlights</h2>
           <div
             className="title_decoration"
             style={{ height: "0.25rem", width: "25vw" }}
-          >
-            {" "}
-            hello
-          </div>
+          ></div>
 
           <div className="highlights">
             <div className="highlight-item">
               <img src={logo1} alt="Seek and Suspect" />
               <p>Seek and Suspect</p>
               <p className="text">
-                {" "}
                 The novel aspect of this project lies in an innovative and fully
                 automated technology for facial image retrieval in criminal
                 investigations.
@@ -168,11 +166,9 @@ function Home() {
               <img src={logo2} alt="Cloud Labs" />
               <p>Cloud Labs</p>
               <p className="text">
-                {" "}
                 Cloud Lab is an innovative platform at the forefront of
                 reshaping hands-on learning for the digital era.
               </p>
-
               <a
                 href="https://iiitd.ac.in/otmt/assets/brochures/Cloud%20Labs%20_%20Bridging%20Gaps%20in%20Remote%20Learning.pdf"
                 target="_blank"
@@ -186,12 +182,10 @@ function Home() {
               <img src={logo3} alt="TATDC" />
               <p>TATDC</p>
               <p className="text">
-                {" "}
                 The Trainer and Tester for Digital Circuits (TATDC) is an
                 innovative project that leverages advanced technology to provide
                 a comprehensive solution for digital circuit experimentation.
               </p>
-
               <a
                 href="https://iiitd.ac.in/otmt/assets/brochures/Cloud%20Labs%20_%20Bridging%20Gaps%20in%20Remote%20Learning.pdf"
                 target="_blank"
@@ -205,11 +199,9 @@ function Home() {
               <img src={logo4} alt="FOODLE" />
               <p>FOODLE</p>
               <p className="text">
-                {" "}
                 Foodle, a culinary word game, capitalizes on the intrinsic
                 connection between language and food.
               </p>
-
               <a
                 href="https://iiitd.ac.in/otmt/assets/brochures/Foodle_%20Brochure.pdf"
                 target="_blank"
@@ -219,14 +211,11 @@ function Home() {
               </a>
             </div>
           </div>
-          <div className="back_block"> hello </div>
-          </div> 
-              
-        </section>
-      </div>
-    );
-  }
-  
-  export default Home;
-       
+          <div className="back_block"></div>
+        </div>
+      </section>
+    </div>
+  );
+}
 
+export default Home;

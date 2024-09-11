@@ -1,140 +1,3 @@
-
-// import React, { useState } from 'react';
-// import Pagination from '@mui/material/Pagination';
-// import './all_tech.css';
-
-
-//   function All_tech() {
-//     const table_data=[
-//       {
-//         id:1,
-//         name:"Example Technology",
-//         detail:"details about technology",
-//         trl:3,
-//         sector:"ai/ml",
-//         link:"#more-details-1",
-        
-//       },
-//       {
-//         id:2,
-//         name:"Example Technology",
-//         detail:"details about technology",
-//         trl:3,
-//         sector:"ai/ml",
-//         link:"#more-details-1",
-        
-//       },
-//       {
-//         id:3,
-//         name:"Example Technology",
-//         detail:"details about technology",
-//         trl:3,
-//         sector:"ai/ml",
-//         link:"#more-details-1",
-        
-//       },
-//       {
-//         id:4,
-//         name:"Example Technology",
-//         detail:"details about technology",
-//         trl:3,
-//         sector:"ai/ml",
-//         link:"#more-details-1",
-        
-//       },
-//       {
-//         id:5,
-//         name:"Example Technology",
-//         detail:"details about technology",
-//         trl:3,
-//         sector:"ai/ml",
-//         link:"#more-details-1",
-        
-//       },
-//       {
-//         id:6,
-//         name:"Example Technology",
-//         detail:"details about technology",
-//         trl:3,
-//         sector:"ai/ml",
-//         link:"#more-details-1",
-        
-//       },
-//       {
-//         id:7,
-//         name:"Example Technology",
-//         detail:"details about technology",
-//         trl:3,
-//         sector:"ai/ml",
-//         link:"#more-details-1",
-        
-//       },
-//       {
-//         id:8,
-//         name:"Example Technology",
-//         detail:"details about technology",
-//         trl:3,
-//         sector:"ai/ml",
-//         link:"#more-details-1",
-        
-//       },
-//     ]
-//     const [currentPage, setCurrentPage] = useState(1);
-//   const itemsPerPage = 5; // Number of items per page
-
-//   // Calculate the indices for slicing the data array
-//   const indexOfLastItem = currentPage * itemsPerPage;
-//   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-//   const currentItems = table_data.slice(indexOfFirstItem, indexOfLastItem);
-
-//   // Change page
-//   const handlePageChange = (event, value) => {
-//     setCurrentPage(value);
-//   };
-
-//   return (
-//     <div className="all">
-//       <h1 className="techno_title">All Technology</h1>
-//       <table className="techno_table">
-//         <thead>
-//           <tr>
-//             <th>S.No.</th>
-//             <th>Tech Name</th>
-//             <th>Tech Details</th>
-//             <th>TRL</th>
-//             <th>Sector</th>
-//             <th>More Details</th>
-//           </tr>
-//         </thead>
-//         <tbody>
-//           {currentItems.map((tech, index) => (
-//             <tr key={tech.id}>
-//               <td>{indexOfFirstItem + index + 1}</td>
-//               <td>{tech.name}</td>
-//               <td>{tech.detail}</td>
-//               <td>{tech.trl}</td>
-//               <td>{tech.sector}</td>
-//               <td>
-//                 <a href={tech.link}>View</a>
-//               </td>
-//             </tr>
-//           ))}
-//         </tbody>
-//       </table>
-//       <Pagination
-//         count={Math.ceil(table_data.length / itemsPerPage)}
-//         page={currentPage}
-//         onChange={handlePageChange}
-//         variant="outlined"
-//         shape="rounded"
-//       />
-//     </div>
-//   );
-
-//   };
-
-// export default All_tech;
-
 import React, { useState } from 'react';
 import Pagination from '@mui/material/Pagination';
 import './all_tech.css';
@@ -234,9 +97,11 @@ function All_tech() {
         variant="outlined"
         shape="rounded"
       />
+      <a href="https://forms.gle/your-google-form-link" className="submit-button">
+        Submit Your Technology
+      </a>
     </div>
   );
 }
 
 export default All_tech;
-

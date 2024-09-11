@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import { Button, Pagination } from "@mui/material";
-import "./up_eve.css";
+import "./Past.css";
 
 const eventList = [
   {
@@ -80,7 +80,7 @@ const eventList = [
 
 const ITEMS_PER_PAGE = 3; // Adjust the number of items per page as needed
 
-function Up_eve() {
+function Past() {
   const [page, setPage] = useState(1);
   const handleChange = (event, value) => {
     setPage(value);
@@ -146,4 +146,4 @@ function Up_eve() {
   );
 }
 
-export default Up_eve;
+export default Past;
