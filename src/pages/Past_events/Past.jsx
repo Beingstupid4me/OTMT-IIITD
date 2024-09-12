@@ -96,7 +96,7 @@ function Past() {
     <div className="ehome">
       <section className="ehed">
         <div className="event">
-          <h1>Upcoming Events</h1>
+          <h1>Past Events</h1>
           <div className="line_eve">hello</div>
         </div>
       </section>
@@ -104,9 +104,9 @@ function Past() {
       <section className="event_Cards">
         <div className="event_types">
           <div className="event_type2">
-            <p>List of Upcoming Events</p>
+            <p>List of Past Events</p>
             <p className="disc">
-              Stay tuned for upcoming events. Coming up soon.
+              
             </p>
 
             <div className="sub_cards">

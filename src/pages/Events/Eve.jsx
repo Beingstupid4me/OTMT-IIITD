@@ -130,7 +130,10 @@ function Eve() {
                 </p>
                 <p className="all_loc">IIIT Delhi</p>
                 <div className="all_event_btn">
-                  <button className="all_know">Know More</button>
+                <Link to="/Past">
+                <button className="all_know">Know More</button>
+                </Link>
+                 
                 </div>
               </div>
 
@@ -144,7 +147,10 @@ function Eve() {
                 </p>
                 <p className="all_loc">C101 LHC</p>
                 <div className="all_event_btn">
-                  <button className="all_know">Know More</button>
+                <Link to="/Past">
+                <button className="all_know">Know More</button>
+                </Link>
+                  
                 </div>
               </div>
             </div>
