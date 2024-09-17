@@ -40,7 +40,7 @@ const eventList = [
     description:
       "Delhi NCR Enactus chapters are invited to present their impactful projects and sell their innovations at our event.",
     loc: "IIIT Delhi",
-    link: "https://example.com/registration2",
+    link: "/documents/Enactus fair.pdf",
   },
   {
     date: "15",
@@ -49,7 +49,7 @@ const eventList = [
     description:
       "The Biz-Ent-ine Empire: A Business and Entrepreneurship Quiz, affectionately known as E-Trivia.",
     loc: "Room C11, IIIT Delhi",
-    link: "https://example.com/registration2",
+    link: "/documents/The biz-ent-ine empire.pdf",
   },
   {
     date: "15-16",
@@ -58,7 +58,7 @@ const eventList = [
     description:
       "Networking Arena, where startups flourish.",
     loc: "IIIT Delhi",
-    link: "https://example.com/registration2",
+    link: "/documents/Networking Arena.pdf",
   },
   {
     date: "15-16",
@@ -67,7 +67,7 @@ const eventList = [
     description:
       "The Pitch Cafe is E-Summit's flagship event, encouraging entrepreneurship among young innovators and startups.",
     loc: "IIIT Delhi",
-    link: "https://example.com/registration2",
+    link: "/documents/Pitch Cafe.pdf",
   },
   {
     date: "15-16",
@@ -76,7 +76,7 @@ const eventList = [
     description:
       "The Imagi-N-ation event is a hackathon cum ideathon organized by IIIT Delhi's E-Summit 24 Team.",
     loc: "IIIT Delhi",
-    link: "https://example.com/registration2",
+    link: "/documents/Imagi-N-ation.pdf",
   },
   {
     date: "06",
@@ -85,7 +85,7 @@ const eventList = [
     description:
       "It provides a unique opportunity to learn from and connect with entrepreneurs and innovators from across the Afro-Asian regions.",
     loc: "LHC C101,IIIT Delhi",
-    link: "https://example.com/registration2",
+    link: "/documents/Afro Asian Conference.pdf",
   },
   {
     date: "15-16",
