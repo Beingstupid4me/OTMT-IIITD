@@ -22,7 +22,7 @@ const eventList = [
     description:
       "This event connects aspiring interns with over 30 startups across tech and non-tech domains.",
     loc: "IIIT Delhi",
-    link: "https://example.com/registration2",
+    link: "/documents/Report of Internship Fair.pdf",
   },
   {
     date: "15-16",
@@ -31,7 +31,7 @@ const eventList = [
     description:
       "The theme of Epoch is integrating open source to solve complex problems.",
     loc: "Library building, IIIT Delhi",
-    link: "https://example.com/registration2",
+    link: "/documents/Epoch.pdf",
   },
   {
     date: "16",
