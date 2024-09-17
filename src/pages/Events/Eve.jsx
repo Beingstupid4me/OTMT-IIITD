@@ -30,7 +30,6 @@
 //               Stay tuned for upcoming events. Coming up soon.
 //             </p>
 
-           
 //             <div className="sub_cards">
 //                 <div className="sub_card1">
 //                   <p className="date">15-16</p>
@@ -57,9 +56,9 @@
 //                   <div className="event_btn">
 //                     <button className="know">Know More</button>
 //                   </div>
-                  
+
 //             </div>
-             
+
 //             </div>
 //           </div>
 //         </div>
@@ -69,7 +68,6 @@
 // }
 
 // export default Eve;
-
 
 import React from "react";
 import "./Eve.css";
@@ -102,55 +100,47 @@ function Eve() {
                 </p>
                 <p className="all_loc">IIIT Delhi</p>
                 <div className="all_event_btn">
-                <Link to="/up_eve">
-                <button className="all_know">Know More</button>
-                </Link>
-                           
+                  <Link to="/up_eve">
+                    <button className="all_know">Know More</button>
+                  </Link>
                 </div>
               </div>
             </div>
-
-
-              
           </div>
 
           <div className="all_event_type2">
             <p>Past Events</p>
-            <p className="all_disc">
-              Stay tuned for upcoming events. Coming up soon.
-            </p>
+            <p className="all_disc"></p>
 
             <div className="all_sub_cards">
               <div className="all_sub_card">
-                <p className="all_date">15-16</p>
+                <p className="all_date">15</p>
                 <p className="all_month">March 2024</p>
-                <p className="all_title">RIISE 2024</p>
+                <p className="all_title">OnCoslice 2024</p>
                 <p className="all_description">
-                  Research Innovation and Incubation Showcase Events (RIISE)
+                  The hackathon focuses on developing computer-assisted
+                  diagnostic tools for precisely diagnosing cancer.
                 </p>
                 <p className="all_loc">IIIT Delhi</p>
                 <div className="all_event_btn">
-                <Link to="/Past">
-                <button className="all_know">Know More</button>
-                </Link>
-                 
+                  <Link to="/Past">
+                    <button className="all_know">Know More</button>
+                  </Link>
                 </div>
               </div>
 
               <div className="all_sub_card">
-                <p className="all_date">20</p>
-                <p className="all_month">November 2023</p>
-                <p className="all_title">SESSION</p>
+                <p className="all_date">15-16</p>
+                <p className="all_month">March 2024</p>
+                <p className="all_title">Internship fair</p>
                 <p className="all_description">
-                  An introductory and informative session on Technology
-                  Readiness Level (TRL) was conducted by Dr. Alok Nikhil Jha.
+                This event connects aspiring interns with over 30 startups across tech and non-tech domains.
                 </p>
                 <p className="all_loc">C101 LHC</p>
                 <div className="all_event_btn">
-                <Link to="/Past">
-                <button className="all_know">Know More</button>
-                </Link>
-                  
+                  <Link to="/Past">
+                    <button className="all_know">Know More</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -159,10 +149,8 @@ function Eve() {
       </section>
 
       <div id="all_back_block_event">   </div>
-      
     </div>
   );
 }
 
 export default Eve;
-

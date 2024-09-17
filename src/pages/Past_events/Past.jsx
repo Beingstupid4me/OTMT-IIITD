@@ -3,78 +3,119 @@ import React, { useState } from "react";
 import { Button, Pagination } from "@mui/material";
 import "./Past.css";
 
+
+
+
 const eventList = [
+  {
+    date: "15",
+    month: "March 2024",
+    title: "OnCoslice ",
+    description: "The hackathon focuses on developing computer-assisted diagnostic tools for precisely diagnosing cancer.",
+    loc: "IIIT Delhi",
+    link: "/documents/OnCoslice.pdf",
+  },
   {
     date: "15-16",
     month: "March 2024",
-    title: "RIISE 2024",
-    description: "An introductory and informative session on Technology Readiness Level (TRL) was conducted by Dr. Alok Nikhil Jha.",
+    title: "Internship fair",
+    description:
+      "This event connects aspiring interns with over 30 startups across tech and non-tech domains.",
     loc: "IIIT Delhi",
-    link: "https://example.com/registration1",
-  },
-  {
-    date: "20",
-    month: "November 2023",
-    title: "SESSION",
-    description:
-      "An introductory and informative session on Technology Readiness Level (TRL) was conducted by Dr. Alok Nikhil Jha.",
-    loc: "C101 LHC",
     link: "https://example.com/registration2",
   },
   {
-    date: "20",
-    month: "November 2023",
-    title: "SESSION",
+    date: "15-16",
+    month: "March 2024",
+    title: "Epoch",
     description:
-      "An introductory and informative session on Technology Readiness Level (TRL) was conducted by Dr. Alok Nikhil Jha.",
-    loc: "C101 LHC",
+      "The theme of Epoch is integrating open source to solve complex problems.",
+    loc: "Library building, IIIT Delhi",
     link: "https://example.com/registration2",
   },
   {
-    date: "20",
-    month: "November 2023",
-    title: "SESSION",
+    date: "16",
+    month: "March 2024",
+    title: "Enactus fair",
     description:
-      "An introductory and informative session on Technology Readiness Level (TRL) was conducted by Dr. Alok Nikhil Jha.",
-    loc: "C101 LHC",
+      "Delhi NCR Enactus chapters are invited to present their impactful projects and sell their innovations at our event.",
+    loc: "IIIT Delhi",
     link: "https://example.com/registration2",
   },
   {
-    date: "20",
-    month: "November 2023",
-    title: "SESSION",
+    date: "15",
+    month: "March 2024",
+    title: "the biz-ent-ine empire",
     description:
-      "An introductory and informative session on Technology Readiness Level (TRL) was conducted by Dr. Alok Nikhil Jha.",
-    loc: "C101 LHC",
+      "The Biz-Ent-ine Empire: A Business and Entrepreneurship Quiz, affectionately known as E-Trivia.",
+    loc: "Room C11, IIIT Delhi",
     link: "https://example.com/registration2",
   },
   {
-    date: "20",
-    month: "November 2023",
-    title: "SESSION",
+    date: "15-16",
+    month: "March 2024",
+    title: "Networking arena",
     description:
-      "An introductory and informative session on Technology Readiness Level (TRL) was conducted by Dr. Alok Nikhil Jha.",
-    loc: "C101 LHC",
+      "Networking Arena, where startups flourish.",
+    loc: "IIIT Delhi",
     link: "https://example.com/registration2",
   },
   {
-    date: "20",
-    month: "November 2023",
-    title: "SESSION",
+    date: "15-16",
+    month: "March 2024",
+    title: "Pitchcafe7.0",
     description:
-      "An introductory and informative session on Technology Readiness Level (TRL) was conducted by Dr. Alok Nikhil Jha.",
-    loc: "C101 LHC",
+      "The Pitch Cafe is E-Summit's flagship event, encouraging entrepreneurship among young innovators and startups.",
+    loc: "IIIT Delhi",
     link: "https://example.com/registration2",
   },
   {
-    date: "20",
-    month: "November 2023",
-    title: "SESSION",
+    date: "15-16",
+    month: "March 2024",
+    title: "Imagi-N-ation",
     description:
-      "An introductory and informative session on Technology Readiness Level (TRL) was conducted by Dr. Alok Nikhil Jha.",
-    loc: "C101 LHC",
+      "The Imagi-N-ation event is a hackathon cum ideathon organized by IIIT Delhi's E-Summit 24 Team.",
+    loc: "IIIT Delhi",
     link: "https://example.com/registration2",
   },
+  {
+    date: "06",
+    month: "July 2024",
+    title: "Afro Asian Entrepreneurs Conference",
+    description:
+      "It provides a unique opportunity to learn from and connect with entrepreneurs and innovators from across the Afro-Asian regions.",
+    loc: "LHC C101,IIIT Delhi",
+    link: "https://example.com/registration2",
+  },
+  {
+    date: "15-16",
+    month: "March 2024",
+    title: "Imagi-N-ation",
+    description:
+      "The Imagi-N-ation event is a hackathon cum ideathon organized by IIIT Delhi's E-Summit 24 Team.",
+    loc: "IIIT Delhi",
+    link: "https://example.com/registration2",
+  },
+  {
+    date: "15-16",
+    month: "March 2024",
+    title: "Imagi-N-ation",
+    description:
+      "The Imagi-N-ation event is a hackathon cum ideathon organized by IIIT Delhi's E-Summit 24 Team.",
+    loc: "IIIT Delhi",
+    link: "https://example.com/registration2",
+  },
+  {
+    date: "15-16",
+    month: "March 2024",
+    title: "Imagi-N-ation",
+    description:
+      "The Imagi-N-ation event is a hackathon cum ideathon organized by IIIT Delhi's E-Summit 24 Team.",
+    loc: "IIIT Delhi",
+    link: "https://example.com/registration2",
+  },
+
+
   // Add more events here
 ];
 
