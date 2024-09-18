@@ -135,7 +135,22 @@ function IPR() {
         >
           <button className="service-btn">Apply for IPR</button>
         </a>
+
+        <a
+          href="https://ird.iiitd.edu.in/filedpatents.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="service-btn">Filed Patents IRD </button>
+        </a>
+
+
+
+
+
       </div>
+
+
       <div id="back_block_ipr"> </div>
       <FaqPopup3 />
     </div>

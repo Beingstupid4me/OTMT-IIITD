@@ -92,11 +92,11 @@ function Eve() {
             </p>
             <div className="all_sub_cards">
               <div className="all_sub_card">
-                <p className="all_date">15-16</p>
-                <p className="all_month">March 2024</p>
-                <p className="all_title">RIISE 2024</p>
+                <p className="all_date">20</p>
+                <p className="all_month">September 2024</p>
+                <p className="all_title">Insight Sprints</p>
                 <p className="all_description">
-                  Research Innovation and Incubation Showcase Events (RIISE)
+                  {/* Research Innovation and Incubation Showcase Events (RIISE) */}
                 </p>
                 <p className="all_loc">IIIT Delhi</p>
                 <div className="all_event_btn">

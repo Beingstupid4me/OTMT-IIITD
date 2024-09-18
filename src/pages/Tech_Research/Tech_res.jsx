@@ -1,46 +1,4 @@
-// import React from "react";
-// import "./Tech_res.css";
-// import { Link } from "react-router-dom";
 
-// function Resrch() {
-//   return (
-//     <div className="research">
-//       <section className="des">
-//         <h1>Our Research</h1>
-
-//         <div className="underline1"> hello</div>
-//         <br />
-//         <p>
-//           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-//           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-//           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-//           aliquip ex ea commodo consequat. Duis aute irure dolor in
-//           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-//           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-//           culpa qui officia deserunt mollit anim id est laborum.
-//         </p>
-//         <h2>Ongoing R and D</h2>
-//         <div className="underline2"> hello</div>
-//         <p>
-//           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-//           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-//           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-//           aliquip ex ea commodo consequat.
-//         </p>
-//       </section>
-
-//       <div className="btn">
-//         <button className="service_btn">List of ongoing works</button>
-//         <button className="service_btn">File your IPR with us</button>
-//         <button className="service_btn">Commercialize your Technology</button>
-//         <button className="service_btn">Looking for Technology</button>
-//       </div>
-
-//     </div>
-//   );
-// }
-
-// export default Resrch;
 
 import React from "react";
 import "./Tech_res.css";

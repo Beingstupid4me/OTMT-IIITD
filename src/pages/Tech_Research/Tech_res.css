@@ -57,7 +57,7 @@
     flex-direction: row;
     align-items: flex-start;
     gap: 40px;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 0px;
     margin-left: 70px;
     margin-right: 65px;
@@ -105,10 +105,11 @@
     text-align: left;
     position: relative;
     left: 76px;
-    margin-top: 50px;
+    margin-top: 150px;
     font-size: 1.5rem;
     font-weight: bold;
-    color:#fff;
+     color:#fff; 
+    /* color: #000000; */
   }
   
   .underline1, .underline2 {
@@ -121,10 +122,11 @@
   
   .underline3{
     width: 35vh;
-    height: 0.6rem;
+    height: 0.3rem;
     background:#fff;
     color: transparent;
     margin-left: 9vh;
+    margin-top: 0vh;
 }
   .line {
     margin-left: 10px;
@@ -143,8 +145,8 @@
     z-index: -1;
     color: transparent;
     top: -45vh;
-    height: 60vh;
-    margin-bottom: -60vh;
+    height: 50vh;
+    margin-bottom: -40vh;
     cursor: none;
    background: radial-gradient(65.24% 517.33% at 56.12% 36.32%, #74A7C2 0%, #39AEA8 59.49%, #8860D0 100%);
 
