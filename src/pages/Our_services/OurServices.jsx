@@ -188,7 +188,7 @@ function OurServices() {
     <div className="our-services">
       <section className="intro_section">
         <div className="intro">
-          <h1>Our services</h1>
+          <h1>Our Services</h1>
           <div
             className="recta"
             style={{

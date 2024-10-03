@@ -139,7 +139,7 @@ function Techno() {
                 investigations.
               </p>
               <a
-                href="https://iiitd.ac.in/otmt/assets/brochures/Seek%20and%20Suspect%20Catalogue.pdf"
+                href="/brochures/SEEk.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -157,7 +157,7 @@ function Techno() {
               </p>
 
               <a
-                href="https://iiitd.ac.in/otmt/assets/brochures/Cloud%20Labs%20_%20Bridging%20Gaps%20in%20Remote%20Learning.pdf"
+                href="/brochures/CLOUD_LABS.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -176,7 +176,7 @@ function Techno() {
               </p>
 
               <a
-                href="https://iiitd.ac.in/otmt/assets/brochures/TATDC.pdf"
+                href="/brochures/TATDC.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -194,7 +194,7 @@ function Techno() {
               </p>
 
               <a
-                href="https://iiitd.ac.in/otmt/assets/brochures/Foodle_%20Brochure.pdf"
+                href="/brochures/FOODLE.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -113,9 +113,8 @@ function Home() {
         </div>
       </section>
 
-      {/* Move the buttons above the Technology Highlights heading and add two more buttons */}
       <div className="buttons-container">
-        <Link to="/Tech_tech">
+        <Link to="/stu_res">
           <button className="cus_button">
             Are you a student and looking for technology
           </button>
@@ -154,7 +153,7 @@ function Home() {
                 investigations.
               </p>
               <a
-                href="https://iiitd.ac.in/otmt/assets/brochures/Seek%20and%20Suspect%20Catalogue.pdf"
+                href="/brochures/SEEk.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -170,7 +169,7 @@ function Home() {
                 reshaping hands-on learning for the digital era.
               </p>
               <a
-                href="https://iiitd.ac.in/otmt/assets/brochures/Cloud%20Labs%20_%20Bridging%20Gaps%20in%20Remote%20Learning.pdf"
+                href="/brochures/CLOUD_LABS.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -187,7 +186,7 @@ function Home() {
                 a comprehensive solution for digital circuit experimentation.
               </p>
               <a
-                href="https://iiitd.ac.in/otmt/assets/brochures/Cloud%20Labs%20_%20Bridging%20Gaps%20in%20Remote%20Learning.pdf"
+                href="/brochures/TATDC.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -203,7 +202,7 @@ function Home() {
                 connection between language and food.
               </p>
               <a
-                href="https://iiitd.ac.in/otmt/assets/brochures/Foodle_%20Brochure.pdf"
+                href="/brochures/FOODLE.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

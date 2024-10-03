@@ -81,6 +81,7 @@
   padding-bottom: 20px;
   text-align: left;
   margin-top: 1.5rem;
+  margin-bottom: 9rem;
 }
 
 .sub_cards {
@@ -111,6 +112,7 @@
   margin-bottom: 4vh;
   transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, border 0.3s ease-in-out;
   position: relative; /* Ensure relative positioning for absolute positioning of button */
+  
   
 }
 

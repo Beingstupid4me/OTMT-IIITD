@@ -104,3 +104,8 @@
   margin-top: 20px; /* Adjust margin as needed */
   margin-bottom: 40px; /* Space from the bottom to avoid overlap */
 }
+
+.techno_table th:first-child, .techno_table td:first-child {
+  width: 50px; /* Decreased width for "S.No." column */
+}
+
