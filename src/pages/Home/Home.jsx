@@ -116,22 +116,22 @@ function Home() {
       <div className="buttons-container">
         <Link to="/stu_res">
           <button className="cus_button">
-            Are you a student and looking for technology
+            Resources For Students
           </button>
         </Link>
         <Link to="/Fac_Res">
           <button className="cus_button">
-            Are you a faculty and looking for resources
+            Resources For Faculty
           </button>
         </Link>
         <Link to="/Ipr">
           <button className="cus_button">Apply For IPR</button>
         </Link>
         <Link to="/Tech_Transfer">
-          <button className="cus_button">Apply Tech Transfer</button>
+          <button className="cus_button">Commercialize Your Technology</button>
         </Link>
         <Link to="/Startup">
-          <button className="cus_button">Apply Startup</button>
+          <button className="cus_button">Start A Venture</button>
         </Link>
       </div>
 

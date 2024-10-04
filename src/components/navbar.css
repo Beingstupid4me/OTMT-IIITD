@@ -55,22 +55,21 @@ body {
     cursor: pointer;
     position: relative;
     padding-right: 15px;
+    display: flex;
+    align-items: center;
 }
 
-/* Add arrow for Resources dropdown */
-.dropdown-link::after {
-    content: '\25BC'; /* Downward arrow */
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 12px;
-    color: #000;
+/* Custom SVG arrow */
+.dropdown-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
     transition: transform 0.3s;
+    stroke: #000;
 }
 
-.dropdown:hover .dropdown-link::after {
-    transform: translateY(-50%) rotate(180deg); /* Rotate arrow on hover */
+.dropdown:hover .dropdown-icon {
+    transform: rotate(180deg); /* Rotate arrow on hover */
 }
 
 .dropdown-menu {
@@ -82,7 +81,7 @@ body {
     background-color: #fff;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 10;
-    min-width: 150px; /* Reduced width */
+    min-width: 150px;
     display: none; /* Initially hidden */
     padding: 10px 0;
 }
