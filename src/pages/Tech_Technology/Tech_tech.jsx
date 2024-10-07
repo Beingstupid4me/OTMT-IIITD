@@ -139,7 +139,7 @@ function Techno() {
                 investigations.
               </p>
               <a
-                href="/brochures/SEEk.pdf"
+                href="/Brochure_New/SEEKnSUSPECT_new.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -157,7 +157,7 @@ function Techno() {
               </p>
 
               <a
-                href="/brochures/CLOUD_LABS.pdf"
+                href="/Brochure_New/Cloud_labs_new.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -176,7 +176,7 @@ function Techno() {
               </p>
 
               <a
-                href="/brochures/TATDC.pdf"
+                href="/Brochure_New/TATDC_new.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -194,7 +194,7 @@ function Techno() {
               </p>
 
               <a
-                href="/brochures/FOODLE.pdf"
+                href="/Brochure_New/Foodle_new.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -215,14 +215,4 @@ function Techno() {
 
 export default Techno;
 
-  {/*    <div className="tech_button">
-        <Link to="/all_tech">
-          <button className="tech_btn">ALL TECH</button>
-        </Link>
-          </div>
-    <Link to="/Tech_tech">
-          <button className="tech_btn">TRL BASED</button>
-        </Link>
-        <Link to="/Tech_tech">
-          <button className="tech_btn">DOMAIN BASED</button>
-        </Link> */}
+  

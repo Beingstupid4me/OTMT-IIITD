@@ -116,22 +116,22 @@ function Home() {
       <div className="buttons-container">
         <Link to="/stu_res">
           <button className="cus_button">
-            Resources For Students
+            Resources for Students
           </button>
         </Link>
         <Link to="/Fac_Res">
           <button className="cus_button">
-            Resources For Faculty
+            Resources for Faculty
           </button>
         </Link>
         <Link to="/Ipr">
-          <button className="cus_button">Apply For IPR</button>
+          <button className="cus_button">Apply for IPR</button>
         </Link>
         <Link to="/Tech_Transfer">
-          <button className="cus_button">Commercialize Your Technology</button>
+          <button className="cus_button">Commercialize your Technology</button>
         </Link>
         <Link to="/Startup">
-          <button className="cus_button">Start A Venture</button>
+          <button className="cus_button">Start a Venture</button>
         </Link>
       </div>
 
@@ -153,7 +153,7 @@ function Home() {
                 investigations.
               </p>
               <a
-                href="/brochures/SEEk.pdf"
+                href="/Brochure_New/SEEKnSUSPECT_new.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -169,7 +169,7 @@ function Home() {
                 reshaping hands-on learning for the digital era.
               </p>
               <a
-                href="/brochures/CLOUD_LABS.pdf"
+                href="/Brochure_New/Cloud_labs_new.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -186,7 +186,7 @@ function Home() {
                 a comprehensive solution for digital circuit experimentation.
               </p>
               <a
-                href="/brochures/TATDC.pdf"
+                href="/Brochure_New/TATDC_new.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -202,7 +202,7 @@ function Home() {
                 connection between language and food.
               </p>
               <a
-                href="/brochures/FOODLE.pdf"
+                href="/Brochure_New/Foodle_new.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -171,8 +171,8 @@ function All_tech() {
     {
       id: 17,
       name: "Foodle",
-      detail: " ",
-      trl: 7,
+      detail: "  ",
+      trl: 6,
       sector: "",
       tech: "",
       link: "#more-details-8",
