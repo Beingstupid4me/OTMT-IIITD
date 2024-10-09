@@ -13,7 +13,7 @@ function All_tech() {
       sector:
         "Education Sector, Research and Development ,Consumer Electronics ,Telecommunications ,Automotive Electronics,Industrial Automation,Defense and Aerospace,Healthcare Technology",
       tech: "Embedded systems, PCB design, Firmware, Power management.",
-      link: "#more-details-1",
+      link: "/Brochure_New/TATDC_new.pdf",
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ function All_tech() {
       trl: "Experimental proof of Concept",
       sector: "Cybersecurity,Finance and Banking,Healthcare,Government and Defense,Telecommunications,E-commerce",
       tech: "Encryption Technology",
-      link: "#more-details-2",
+      link: "/Brochure_New/STREAM_CIPHERED_new.pdf",
     },
     {
       id: 3,
@@ -79,7 +79,7 @@ function All_tech() {
       trl: 7,
       sector: "",
       tech: "",
-      link: "#more-details-8",
+      link: "/Brochure_New/NATIVE_new.pdf",
     },
 
     /*new ones*/
@@ -90,7 +90,7 @@ function All_tech() {
       trl: 5,
       sector: "",
       tech: "",
-      link: "#more-details-8",
+      link: "/Brochure_New/0xFethr_new.pdf",
     },
 
     
@@ -134,17 +134,17 @@ function All_tech() {
       trl: 4,
       sector: "",
       tech: "",
-      link: "#more-details-8",
+      link: "/Brochure_New/RCS_new.pdf",
     },
     
     {
       id: 14,
-      name: "Seek suspect project for person retrieval",
+      name: "Seek Suspect: Project for person retrieval",
       detail: "This project automates the retrieval of criminal images from a database using minimal manually provided features like face and eye shape, removing the need for detailed sketches. By creating accurate facial image retrieval systems, we enhance criminal investigations and public safety, allowing law enforcement to quickly identify suspects.This unique approach fills a gap in existing solutions and can assist in locating missing persons, generating new faces, and refining facial details. Users can also customize attributes, such as eye formations, for tailored image adjustments.",
       trl: 6,
       sector: "",
       tech: "",
-      link: "#more-details-8",
+      link: "/Brochure_New/SEEKnSUSPECT_new.pdf",
     },
 
     
@@ -155,7 +155,7 @@ function All_tech() {
       trl: 7,
       sector: "",
       tech: "",
-      link: "#more-details-8",
+      link: "/Brochure_New/Cloud_labs_new.pdf",
     },
 
     {
@@ -165,17 +165,17 @@ function All_tech() {
       trl: 7,
       sector: "",
       tech: "",
-      link: "#more-details-8",
+      link: "/Brochure_New/GUI_Tester_final.pdf",
     },
 
     {
       id: 17,
       name: "Foodle",
-      detail: "  ",
+      detail: "Foodle, a culinary word game, capitalizes on the intrinsic connection between language and food. Acknowledging that words related to the culinary world shape our cravings, the project introduces a five-letter word game inspired by the popular Wordle. The objective is to subtly encourage players toward nutritious, healthy, and sustainable eating practices.",
       trl: 6,
       sector: "",
       tech: "",
-      link: "#more-details-8",
+      link: "/Brochure_New/Foodle_new.pdf",
     },
 
 
@@ -271,7 +271,7 @@ function All_tech() {
         shape="rounded"
       />
       <a
-        href="https://forms.gle/your-google-form-link"
+        href="https://forms.gle/EQZQJUwk25dnm34n9"
         className="submit-button"
       >
         Submit Your Technology

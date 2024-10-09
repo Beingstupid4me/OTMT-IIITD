@@ -4,14 +4,14 @@ import iiitdlogo from '../images/iiitdlogo.png';
 import "./navbar.css";
 
 export default function Navbar() {
-    const [dropdownVisible, setDropdownVisible] = useState(false);
+    const [dropdownVisible, setDropdownVisible] = useState({ resources: false, technology: false, services: false });
 
-    const handleMouseEnter = () => {
-        setDropdownVisible(true);
+    const handleMouseEnter = (menu) => {
+        setDropdownVisible((prev) => ({ ...prev, [menu]: true }));
     };
 
-    const handleMouseLeave = () => {
-        setDropdownVisible(false);
+    const handleMouseLeave = (menu) => {
+        setDropdownVisible((prev) => ({ ...prev, [menu]: false }));
     };
 
     return (
@@ -22,14 +22,78 @@ export default function Navbar() {
                 </div>
                 <nav className="navbar">
                     <Link to="/">Home</Link>
-                    <Link to="/service">Our Services</Link>
-                    <Link to="/technology">Technology</Link>
+                    
+                    {/* Dropdown for Our Services */}
+                    <div
+                        className="dropdown"
+                        onMouseEnter={() => handleMouseEnter('services')}
+                        onMouseLeave={() => handleMouseLeave('services')}
+                    >
+                        <Link to="/service" className="dropdown-link">
+                            Our Services
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                className="dropdown-icon"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M19 9l-7 7-7-7"
+                                />
+                            </svg>
+                        </Link>
+                        {dropdownVisible.services && (
+                            <div className="dropdown-menu">
+                                <Link to="/FacInn">• Facilitate Innovation</Link>
+                                <Link to="/Tam">• Technology Maturity Assessment</Link>
+                                <Link to="/IPR">• IPR Management</Link>
+                                <Link to="/Lisc">• Technology Licensing</Link>
+                                <Link to="/Startup">• Startup Facilitation</Link>
+                            </div>
+                        )}
+                    </div>
+
+                    {/* Dropdown for Technology */}
+                    <div
+                        className="dropdown"
+                        onMouseEnter={() => handleMouseEnter('technology')}
+                        onMouseLeave={() => handleMouseLeave('technology')}
+                    >
+                        <Link to="/technology" className="dropdown-link">
+                            Technology
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                className="dropdown-icon"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M19 9l-7 7-7-7"
+                                />
+                            </svg>
+                        </Link>
+                        {dropdownVisible.technology && (
+                            <div className="dropdown-menu">
+                                <Link to="/Tech_res">• Our Research</Link>
+                                <Link to="/Tech_tech">• Our Technology</Link>
+                                <Link to="/IPR">• Our IPR</Link>
+                            </div>
+                        )}
+                    </div>
 
                     {/* Dropdown for Resources */}
                     <div
                         className="dropdown"
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}
+                        onMouseEnter={() => handleMouseEnter('resources')}
+                        onMouseLeave={() => handleMouseLeave('resources')}
                     >
                         <Link to="/resources" className="dropdown-link">
                             Resources
@@ -48,11 +112,11 @@ export default function Navbar() {
                                 />
                             </svg>
                         </Link>
-                        {dropdownVisible && (
+                        {dropdownVisible.resources && (
                             <div className="dropdown-menu">
-                                <Link to="/Fac_Res">Faculty and Staff</Link>
-                                <Link to="/stu_res">Student</Link>
-                                <Link to="/Par_res">Partners</Link>
+                                <Link to="/Fac_Res">• Faculty and Staff</Link>
+                                <Link to="/Stu_Res">• Student</Link>
+                                <Link to="/Par_Res">• Partners</Link>
                             </div>
                         )}
                     </div>
