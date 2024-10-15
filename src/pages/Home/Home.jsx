@@ -127,7 +127,7 @@ function Home() {
         <Link to="/Ipr">
           <button className="cus_button">Apply for IPR</button>
         </Link>
-        <Link to="/Tech_Transfer">
+        <Link to="/Collaborate">
           <button className="cus_button">Commercialize your Technology</button>
         </Link>
         <Link to="/Startup">

@@ -16,8 +16,8 @@ function Tam() {
             className="title_decoration1"
             style={{
               height: "0.6rem",
-              width: "35vh",
-              "margin-left": "9vh",
+              width: "55vh",
+              marginLeft: "9vh",
               marginTop: "2vh",
             }}
           >
@@ -41,9 +41,9 @@ function Tam() {
           className="title_decoration"
           style={{
             height: "0.3rem",
-            width: "15vh",
+            width: "30vh",
             "margin-left": "9vh",
-            marginTop: "2vh",
+            marginTop: "0vh",
           }}
         >
           hello

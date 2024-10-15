@@ -77,6 +77,15 @@ footer {
     opacity: 1px;
 
 }
+.logo-6 {
+    width: 111px;
+    height: 46px;
+    top: 905px;
+    left: 1240px;
+    gap: 0px;
+    opacity: 1px;
+
+}
 
 /* @media (max-width: 768px) {
     .footer-logos {

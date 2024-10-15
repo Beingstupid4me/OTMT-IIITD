@@ -51,17 +51,17 @@
 
 .title_container {
   text-align: left;
-  margin-bottom: 0px;
- margin-left: 0px; 
+  margin-bottom: 30px;
+ margin-left: 20px; 
 }
 
 .title_container h2 {
   margin: 0;
   position: relative;
   width: 612px;
-  left: 76px;
+  left: 60px;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1;
   font-family: 'Source Sans Pro';
   font-size: 2rem;
   font-weight: bold;
@@ -173,6 +173,13 @@
  
   background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
   color: transparent;
+  height: "0.6rem";
+  width: "35vh";
+  margin-left:  "9vh";
+  margin-top: "2vh",
+
+
+
 }
 #back_block_tam {
   position: relative;

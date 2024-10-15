@@ -41,10 +41,13 @@ function Startup() {
         </p>
       </section>
 
-     
-      <div className="btn">
+      <a
+                href="https://forms.gle/mok6pPJfzP34X1638">
+                      <div className="btn">
         <button className="service_btn">Startup Registration</button>
       </div>
+      </a>
+  
 
       <div id="back_block_startup">   </div>
       <FaqPopup5 />

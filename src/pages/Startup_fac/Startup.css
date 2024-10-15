@@ -6,7 +6,14 @@
   padding: 20px;
   text-align: center;
   color: #333;
+  text-decoration: none;
 }
+
+.startup a{
+  text-decoration: none;
+}
+
+
 
 .des {
   margin-bottom: 40px;

@@ -28,7 +28,7 @@ function Coll() {
       <section className="Collab_Cards">
         <div className="collab_types">
           <div className="collab_type1">
-            <p>Do you have a Technology need to be developed?</p>
+            <p>Do you have a Technology that need to be developed?</p>
             <p className="discription">
               {" "}
               If you have specific technology development needs, we invite you
@@ -37,7 +37,8 @@ function Coll() {
               R&D requirements.
             </p>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdDMThVAiQwRLV6wkoM3YFGQXmu6IJ7gpH5jShh1xJeY8ZTFw/viewform"
+              // href="https://forms.gle/S842HCfj1ArUZkZK9"
+              href="https://forms.gle/PYxuwQHSZ7DfXrRz9"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -60,7 +61,8 @@ function Coll() {
               portal.
             </p>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdDMThVAiQwRLV6wkoM3YFGQXmu6IJ7gpH5jShh1xJeY8ZTFw/viewform"
+              // href="https://forms.gle/GzKudCTCg9D1hVmb9"
+              href="https://forms.gle/PYxuwQHSZ7DfXrRz9"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -83,7 +85,8 @@ function Coll() {
               licensing or industry partnerships.
             </p>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdDMThVAiQwRLV6wkoM3YFGQXmu6IJ7gpH5jShh1xJeY8ZTFw/viewform"
+              // href="https://forms.gle/MQFh1zGAWxHqf4Mj8"
+              href="https://forms.gle/PYxuwQHSZ7DfXrRz9"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -106,7 +109,8 @@ function Coll() {
               through our Tech Transfer platform.
             </p>
             <a
-              href="https://calendar.google.com/calendar/u/0/r/eventedit?add=alok@iiitd.ac.in&cls=0&hl=en"
+              // href="https://forms.gle/7t2Ehj75snMfqc787"
+              href="https://forms.gle/PYxuwQHSZ7DfXrRz9"
               target="_blank"
               rel="noopener noreferrer"
             >
