@@ -76,7 +76,7 @@ function IPR() {
           }}
         >
           {" "}
-          hello
+          
         </div>
       </div>
       <section className="ipr_list">

@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
 .research {
     font-family: 'Source Sans Pro', sans-serif;
     padding: 20px;
     text-align: center;
     color: #333;
-  }
-  
-  .des {
+}
+
+.des {
+    display: flex; /* Added flex to align text and image */
+    justify-content: space-between; /* Space between text and image */
+    align-items: flex-start; /* Align items at the top */
     margin-bottom: 40px;
-  }
-  
-  .des h1 {
+}
+
+.des h1 {
     position: relative;
     width: 612px;
     left: 76px;
@@ -24,9 +28,9 @@
     color: #328d89;
     margin: 0;
     margin-bottom: 0;
-  }
-  
-  .des h2 {
+}
+
+.des h2 {
     position: relative;
     width: 1000px;
     left: 76px;
@@ -40,9 +44,9 @@
     color: #328d89;
     margin: 0;
     margin-bottom: 0;
-  }
-  
-  .des p {
+}
+
+.des p {
     font-size: 1rem;
     color: #555;
     max-width: 48%;
@@ -50,9 +54,9 @@
     text-align: left;
     position: relative;
     left: 76px;
-  }
-  
-  .btn1 {
+}
+
+.btn1 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -62,9 +66,10 @@
     margin-left: 70px;
     margin-right: 65px;
     justify-content: left;
-  }
+    border-radius: 30px;
+}
 
-  .btn2 {
+.btn2 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -74,66 +79,64 @@
     margin-left: 70px;
     margin-right: 65px;
     justify-content: left;
-  }
-  
-  .service_btn {
-    padding: 10px 70px; /* Increased padding to make the button larger */
-    border: 2px solid black;
-    color: #000000;
+    opacity: 0;
+}
+
+.service_btn {
+    padding: 40px 70px; /* Increased padding to make the button larger */
+    border: 2px none;
+    background: linear-gradient(45deg, #73cfca, #8860d0);
     font-weight: bold;
-    border-radius: 0px; /* Added slight rounding to the corners */
-    background: #fff;
     cursor: pointer;
-    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition effects */
-    /* box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
-     */
-     box-shadow: 3px 4px 20px 0px #FFFFFF;
-
-  }
-
-  
-  
-  .service_btn:hover {
-    background: linear-gradient(45deg, #73cfca, #8860d0); /* Gradient effect on hover */
-    transform: scale(1.05); /* Slightly increase the button size on hover */
-    border: none;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
     box-shadow: 3px 4px 20px 0px #FFFFFF;
     color: #fff;
-  }
-  
-  .ipr-heading {
+    border-radius: 30px;
+}
+
+.service_btn:hover {
+    transform: scale(1.05); /* Slightly increase the button size on hover */
+    border: 2px solid black;
+    box-shadow: 3px 4px 20px 0px #FFFFFF;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.ipr-heading {
     text-align: left;
     position: relative;
     left: 76px;
     margin-top: 150px;
     font-size: 1.5rem;
     font-weight: bold;
-     color:#fff; 
-    /* color: #000000; */
-  }
-  
-  .underline1, .underline2 {
+    color: #fff;
+    opacity: 0;
+}
+
+.underline1, .underline2 {
     width: 35vh;
     height: 0.6rem;
     background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
     color: transparent;
     margin-left: 9vh;
-  }
-  
-  .underline3{
+}
+
+.underline3 {
     width: 35vh;
     height: 0.3rem;
-    background:#fff;
+    background: #fff;
     color: transparent;
     margin-left: 9vh;
     margin-top: 0vh;
+    opacity: 0;
 }
-  .line {
+
+.line {
     margin-left: 10px;
     margin-top: 500px;
-  }
-   
-  #back_block_research {
+}
+
+#back_block_research {
     position: relative;
     width: 100%;
     left: 0;
@@ -144,11 +147,25 @@
     margin-right: -20px;
     z-index: -1;
     color: transparent;
-    top: -45vh;
-    height: 50vh;
+    top: -55vh;
+    height: 35vh;
     margin-bottom: -40vh;
-    cursor: none;
-   background: radial-gradient(65.24% 517.33% at 56.12% 36.32%, #74A7C2 0%, #39AEA8 59.49%, #8860D0 100%);
+    cursor: none;
+    background: radial-gradient(65.24% 517.33% at 56.12% 36.32%, #74A7C2 0%, #39AEA8 59.49%, #8860D0 100%);
+}
 
-  }
-  
+/* New CSS for the image next to the des section */
+.image-container {
+    max-width: 60%; /* Adjust the width as necessary */
+    margin-left: 0px; /* Adds space between the image and the text */
+}
+
+.image-container img {
+    width: 120%;
+    height: auto;
+    border-radius: 20px; /* Optional: Rounded corners for the image */
+    margin-left: 0px;
+    margin-right: 90px;
+}
+
+

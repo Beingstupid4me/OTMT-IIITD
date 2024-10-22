@@ -102,7 +102,7 @@ function Techno() {
             }}
           >
             {" "}
-            hello
+            
           </div>
           <br />
           <p>
@@ -206,7 +206,7 @@ function Techno() {
 
           {/* <div className="background_block_tech"> hello </div> */}
         </div>
-        <div className="background_block_tech"> hello </div>
+        <div className="background_block_tech"> </div>
       </section>
 
     </div>

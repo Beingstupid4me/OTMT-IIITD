@@ -13,7 +13,7 @@ function Tech() {
         <div className="technology">
           <h1>Technology</h1>
           <br />
-          <div className="line_tech"> hello</div>
+          <div className="line_tech"> </div>
           <br />
           <p>
             At the Office of Technology Management and Transfer (OTMT), we pride
@@ -55,7 +55,7 @@ function Tech() {
           <div className="tech_type1">
             <img src={logo3} alt="IPR" />
             <Link to="/Ipr">
-              <p>Apply For IPR</p>
+              <p>Our IPR</p>
             </Link>
             <p className="para">
               Explore our Intellectual Property Rights (IPR) services and apply to protect your innovative ideas.

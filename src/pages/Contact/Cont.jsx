@@ -102,7 +102,7 @@ function Cont() {
             }}
           >
             {" "}
-            hello
+            
           </div>
           <br />
           <img src={logo1} alt="details" />

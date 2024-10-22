@@ -25,7 +25,7 @@ function Startup() {
           className="underline2"
         >
           {" "}
-          hello
+          
         </div>
         <p>
           Embark on a journey of entrepreneurial success with our comprehensive

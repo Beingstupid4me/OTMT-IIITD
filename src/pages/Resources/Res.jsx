@@ -14,7 +14,7 @@ function Res() {
         <div className="res">
           <h1>Resources</h1>
           <br />
-          <div className="line_res"> hello</div>
+          <div className="line_res"> </div>
           <br />
           <p>
             This section is designed to provide you with a comprehensive

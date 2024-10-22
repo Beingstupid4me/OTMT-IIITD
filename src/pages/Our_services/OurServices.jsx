@@ -199,7 +199,7 @@ function OurServices() {
             }}
           >
             {" "}
-            hello
+            
           </div>
           <p>
             Our goal is to create a dynamic ecosystem where innovation thrives.

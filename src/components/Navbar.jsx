@@ -48,11 +48,11 @@ export default function Navbar() {
                         </Link>
                         {dropdownVisible.services && (
                             <div className="dropdown-menu">
-                                <Link to="/FacInn">• Facilitate Innovation</Link>
-                                <Link to="/Tam">• Technology Maturity Assessment</Link>
-                                <Link to="/IPR">• IPR Management</Link>
-                                <Link to="/Lisc">• Technology Licensing</Link>
-                                <Link to="/Startup">• Startup Facilitation</Link>
+                                <Link to="/FacInn">Facilitate Innovation</Link>
+                                <Link to="/Tam">Technology Maturity Assessment</Link>
+                                <Link to="/IPR">IPR Management</Link>
+                                <Link to="/Lisc">Technology Licensing</Link>
+                                <Link to="/Startup">Startup Facilitation</Link>
                             </div>
                         )}
                     </div>
@@ -82,9 +82,9 @@ export default function Navbar() {
                         </Link>
                         {dropdownVisible.technology && (
                             <div className="dropdown-menu">
-                                <Link to="/Tech_res">• Our Research</Link>
-                                <Link to="/Tech_tech">• Our Technology</Link>
-                                <Link to="/IPR">• Our IPR</Link>
+                                <Link to="/Tech_res">Our Research</Link>
+                                <Link to="/Tech_tech">Our Technology</Link>
+                                <Link to="/IPR">Our IPR</Link>
                             </div>
                         )}
                     </div>
@@ -114,9 +114,9 @@ export default function Navbar() {
                         </Link>
                         {dropdownVisible.resources && (
                             <div className="dropdown-menu">
-                                <Link to="/Fac_Res">• Faculty and Staff</Link>
-                                <Link to="/Stu_Res">• Student</Link>
-                                <Link to="/Par_Res">• Partners</Link>
+                                <Link to="/Fac_Res">Faculty and Staff</Link>
+                                <Link to="/Stu_Res">Student</Link>
+                                <Link to="/Par_Res">Partners</Link>
                             </div>
                         )}
                     </div>

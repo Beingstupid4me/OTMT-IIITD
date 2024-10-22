@@ -12,7 +12,7 @@ function Coll() {
           <br />
           <h1>looking for:</h1>
           <br />
-          <div className="line_coll"> hello</div>
+          <div className="line_coll"> </div>
           <br />
           <p>
             Whether you're a company seeking innovative solutions, an individual

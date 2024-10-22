@@ -97,7 +97,7 @@ function Up_eve() {
       <section className="ehed">
         <div className="event">
           <h1>Upcoming Events</h1>
-          <div className="line_eve">hello</div>
+          <div className="line_eve"></div>
         </div>
       </section>
 

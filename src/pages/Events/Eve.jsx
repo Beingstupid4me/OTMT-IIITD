@@ -8,7 +8,7 @@ function Eve() {
       <section className="ehed">
         <div className="all_event">
           <h1>Events</h1>
-          <div className="all_line_eve">hello</div>
+          <div className="all_line_eve"></div>
         </div>
       </section>
 

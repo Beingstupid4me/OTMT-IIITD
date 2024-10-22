@@ -22,7 +22,7 @@ function Tam() {
             }}
           >
             {" "}
-            hello
+            
           </div>
           <br />
           <p>
