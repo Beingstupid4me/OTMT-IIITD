@@ -13,7 +13,7 @@ function Tam() {
           <h1>Technology Maturity Assessment</h1>
           <br />
           <div
-            className="title_decoration1"
+            className="tam_line"
             style={{
               height: "0.6rem",
               width: "55vh",

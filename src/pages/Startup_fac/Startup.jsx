@@ -14,7 +14,7 @@ function Startup() {
       
         >
           {" "}
-          hello
+          
         </div>
         <br />
         <h2>
@@ -42,9 +42,10 @@ function Startup() {
       </section>
 
       <a
-                href="https://forms.gle/mok6pPJfzP34X1638">
+                // href="https://forms.gle/mok6pPJfzP34X1638">
+                href="https://iiitdic.in/">
                       <div className="btn">
-        <button className="service_btn">Startup Registration</button>
+        <button className="service_btn">EXPLORE MORE</button>
       </div>
       </a>
   

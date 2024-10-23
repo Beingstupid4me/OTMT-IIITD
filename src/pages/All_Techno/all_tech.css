@@ -19,6 +19,7 @@
 .techno_table {
   width: 100%;
   border-collapse: collapse;
+  margin-bottom: 2rem;
 }
 
 .techno_table th, .techno_table td {

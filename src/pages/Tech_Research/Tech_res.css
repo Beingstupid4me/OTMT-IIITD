@@ -7,14 +7,14 @@
     color: #333;
 }
 
-.des {
+.res_des {
     display: flex; /* Added flex to align text and image */
     justify-content: space-between; /* Space between text and image */
     align-items: flex-start; /* Align items at the top */
     margin-bottom: 40px;
 }
 
-.des h1 {
+.res_des h1 {
     position: relative;
     width: 612px;
     left: 76px;
@@ -30,7 +30,7 @@
     margin-bottom: 0;
 }
 
-.des h2 {
+.res_des h2 {
     position: relative;
     width: 1000px;
     left: 76px;
@@ -46,7 +46,7 @@
     margin-bottom: 0;
 }
 
-.des p {
+.res_des p {
     font-size: 1rem;
     color: #555;
     max-width: 48%;
@@ -56,7 +56,7 @@
     left: 76px;
 }
 
-.btn1 {
+.res_btn {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -69,7 +69,7 @@
     border-radius: 30px;
 }
 
-.btn2 {
+.res_btn2 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -82,7 +82,7 @@
     opacity: 0;
 }
 
-.service_btn {
+.ser_btn {
     padding: 40px 70px; /* Increased padding to make the button larger */
     border: 2px none;
     background: linear-gradient(45deg, #73cfca, #8860d0);
@@ -94,7 +94,7 @@
     border-radius: 30px;
 }
 
-.service_btn:hover {
+.ser_btn:hover {
     transform: scale(1.05); /* Slightly increase the button size on hover */
     border: 2px solid black;
     box-shadow: 3px 4px 20px 0px #FFFFFF;
@@ -113,7 +113,7 @@
     opacity: 0;
 }
 
-.underline1, .underline2 {
+.res_line, .res_line2 {
     width: 35vh;
     height: 0.6rem;
     background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
@@ -121,7 +121,7 @@
     margin-left: 9vh;
 }
 
-.underline3 {
+.res_line3 {
     width: 35vh;
     height: 0.3rem;
     background: #fff;

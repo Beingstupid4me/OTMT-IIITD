@@ -7,11 +7,11 @@ import logo3 from "../../images/technology_res.jpg";
 function Resrch() {
   return (
     <div className="research">
-      <section className="des">
+      <section className="res_des">
         {/* Left Side - Text Content */}
-        <div className="text-content">
+        <div className="txt_content">
           <h1>Our Research</h1>
-          <div className="underline1"></div>
+          <div className="res_line"></div>
           <br />
           <p>
             At the Office of Technology Management and Transfer (OTMT), we serve
@@ -26,7 +26,7 @@ function Resrch() {
             technologies that drive societal and economic progress.
           </p>
           <h2>Ongoing R&D</h2>
-          <div className="underline2"></div>
+          <div className="res_line2"></div>
           <p>
             While the research happens at IIIT Delhi, OTMT’s role is to record,
             promote, and encourage collaboration to ensure that the research is
@@ -55,36 +55,36 @@ function Resrch() {
       </section>
 
       {/* Buttons Section */}
-      <div className="btn1">
+      <div className="res_btn">
         <a
           href="https://iiitd.ac.in/research/projects/srp"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="service_btn">List of ongoing works</button>
+          <button className="ser_btn">List of ongoing works</button>
         </a>
         <a
-          href="https://docs.google.com/document/d/1MelfFkfhfX6wfB2q-qrGkY5hQipOmPkO/edit?usp=sharing&ouid=113746858237678511080&rtpof=true&sd=true"
+          href="https://forms.gle/A6DZy5P4h9jhGGB86"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="service_btn">File your IPR with us</button>
+          <button className="ser_btn">File your IPR with us</button>
         </a>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSdDMThVAiQwRLV6wkoM3YFGQXmu6IJ7gpH5jShh1xJeY8ZTFw/viewform"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="service_btn">Commercialize your Technology</button>
+          <button className="ser_btn">Commercialize your Technology</button>
         </a>
 
-        <button className="service_btn">Looking Research Collaboration</button>
+        <button className="ser_btn">Looking For Research Collaboration</button>
       </div>
 
       {/* IPR Section */}
       <h2 className="ipr-heading">Our IPRs</h2>
-      <div className="underline3"> </div>
-      <div className="btn2">
+      <div className="res_line3"> </div>
+      <div className="res_btn2">
         <Link to="/Ipr_Table">
           <button className="service_btn">List of IPRs</button>
         </Link>
