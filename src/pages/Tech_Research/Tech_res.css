@@ -82,9 +82,12 @@
     opacity: 0;
 }
 
+
 .ser_btn {
-    padding: 40px 70px; /* Increased padding to make the button larger */
-    border: 2px none;
+    width: 250px; /* Set a fixed width */
+    height: 100px; /* Set a fixed height */
+    padding: 10px 80px; /* Adjusted padding to fit the new size */
+    border: none;
     background: linear-gradient(45deg, #73cfca, #8860d0);
     font-weight: bold;
     cursor: pointer;
@@ -92,15 +95,9 @@
     box-shadow: 3px 4px 20px 0px #FFFFFF;
     color: #fff;
     border-radius: 30px;
+    text-align: center; /* Centers the text */
 }
 
-.ser_btn:hover {
-    transform: scale(1.05); /* Slightly increase the button size on hover */
-    border: 2px solid black;
-    box-shadow: 3px 4px 20px 0px #FFFFFF;
-    background: #FFFFFF;
-    color: #000000;
-}
 
 .ipr-heading {
     text-align: left;

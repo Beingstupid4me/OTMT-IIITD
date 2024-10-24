@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { TablePagination } from '@mui/material';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './Proj.css';
 
 const rowsPerPageOptions = [5, 10, 15]; // Options for the number of rows per page
@@ -14,28 +15,30 @@ const ProjTable = () => {
 
   const handleChangeRowsPerPage = (event) => {
     setRowsPerPage(parseInt(event.target.value, 10));
-    setP
+    setPage(0); // Reset the page to 0 when rows per page is changed
+  };
+
   const iprData = [
-    { sNo: 1, title: '', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 2, title: '', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 3, title: '', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 4, title: '', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 5, title: '', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 6, title: '', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 7, title: '', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 8, title: '', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 9, title: '', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 10, title:'', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 11, title:'', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 12, title:'', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 13, title:'', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 14, title:'', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 15, title:'', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 16, title:'', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 17, title:'', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 18, title:'', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 19, title:'', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
-    { sNo: 20, title:'', No: '', pi:'', agency:'', amnt:'', start:'', end:'', dur:'', link:'' },
+    { sNo: 1, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 2, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 3, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 4, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 5, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 6, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 7, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 8, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 9, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 10, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 11, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 12, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 13, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 14, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 15, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 16, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 17, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 18, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 19, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 20, title: '', pi: '', agency: '', end: '', dur: '' },
   ];
 
   const paginatedData = iprData.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage);
@@ -48,15 +51,10 @@ const ProjTable = () => {
           <tr>
             <th>S.No.</th>
             <th>Project Title</th>
-            <th>Sanction Order No/ MoU/ Award Letters</th>
             <th>Name of the PI</th>
             <th>Funding Agencies</th>
-            <th>Total Sanction Amount Rs.</th>
-            <th>Start Date</th>
             <th>End Date</th>
             <th>Duration</th>
-            <th>Link of S.O/MoU/Letter</th>
-
           </tr>
         </thead>
         <tbody>
@@ -64,16 +62,10 @@ const ProjTable = () => {
             <tr key={proj.sNo}>
               <td>{proj.sNo}</td>
               <td>{proj.title}</td>
-              <td>{proj.No}</td>
               <td>{proj.pi}</td>
               <td>{proj.agency}</td>
-              <td>{proj.amnt}</td>
-              <td>{proj.start}</td>
               <td>{proj.end}</td>
               <td>{proj.dur}</td>
-              <td>
-                <a href={proj.link}>View</a>
-              </td>
             </tr>
           ))}
         </tbody>
@@ -87,6 +79,13 @@ const ProjTable = () => {
         onRowsPerPageChange={handleChangeRowsPerPage}
         rowsPerPageOptions={rowsPerPageOptions}
       />
+
+      {/* Explore More Button */}
+      <div className="explore-more">
+        <Link to="/explore-more">
+          <button className="explore_btn">Explore More</button>
+        </Link>
+      </div>
     </div>
   );
 };

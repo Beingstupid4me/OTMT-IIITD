@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 
-.ipr-container {
+.proj-container {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 20px;
   color: #333;
 }
 
-.ipr-title {
+.proj-title {
   font-family: 'Source Sans Pro';
   font-size: 3rem;
   font-weight: bold;
@@ -17,14 +17,14 @@
   margin-left: 70px;
 }
 
-.ipr-table {
+.proj-table {
   width: 90%;
   border-collapse: collapse;
   margin-left: 70px;
   height: 80%;
 }
 
-.ipr-table th, .ipr-table td {
+.proj-table th, .proj-table td {
   border: 1px solid #333;
   padding: 12px 15px;
   text-align: left;
@@ -32,22 +32,45 @@
   background-color:#ffffff;
 }
 
-.ipr-table th {
+.proj-table th {
   
   background-color: #8860d0;
   color: #ffffff;
   font-weight: 600;
 }
 
-.ipr-table td {
+.proj-table td {
   background-color:#ffffff;
   color:#333;
 }
 
-.ipr-table tbody tr:nth-child(even) {
+.proj-table tbody tr:nth-child(even) {
   background-color: #FCEABB;
 }
 
-.ipr-table tbody tr:hover {
+.proj-table tbody tr:hover {
   background-color: #f2f2f2;
+}
+
+/* Styles for the Explore More button */
+.explore-more {
+  position: absolute;
+  bottom: 190px; /* Adjust as needed */
+  left: 90px;   /* Adjust as needed */
+}
+
+.explore_btn {
+  padding: 10px 20px;
+  background-color: #73cfca; /* Button background color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  color: #fff; /* Text color */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transitions */
+}
+
+.explore_btn:hover {
+  background-color: #8860d0; /* Change color on hover */
+  transform: translateY(-3px); /* Lift effect on hover */
 }

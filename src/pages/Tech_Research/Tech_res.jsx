@@ -56,13 +56,18 @@ function Resrch() {
 
       {/* Buttons Section */}
       <div className="res_btn">
-        <a
+        {/* <a
           href="https://iiitd.ac.in/research/projects/srp"
           target="_blank"
           rel="noopener noreferrer"
         >
           <button className="ser_btn">List of ongoing works</button>
-        </a>
+        </a> */}
+
+
+        <Link to="/Proj">
+          <button className="ser_btn">Sponsored Research Projects</button>
+        </Link>
         <a
           href="https://forms.gle/A6DZy5P4h9jhGGB86"
           target="_blank"
@@ -78,7 +83,7 @@ function Resrch() {
           <button className="ser_btn">Commercialize your Technology</button>
         </a>
 
-        <button className="ser_btn">Looking For Research Collaboration</button>
+        <button className="ser_btn">Looking for Research Collaboration</button>
       </div>
 
       {/* IPR Section */}
