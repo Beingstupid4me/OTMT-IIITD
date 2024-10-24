@@ -9,7 +9,7 @@ function Tam() {
   return (
     <div className="tech_ass">
       <section className="des_sec">
-        <div className="des">
+        <div className="des_tam">
           <h1>Technology Maturity Assessment</h1>
           <br />
           <div

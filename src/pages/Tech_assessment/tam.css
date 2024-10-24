@@ -7,11 +7,11 @@
   color: #333;
 }
 
-.des {
+.des_tam {
   margin-bottom: 40px;
 }
 
-.des h1 {
+.des_tam h1 {
   position: relative;
   width: 612px;
   left: 76px;
@@ -28,7 +28,7 @@
 
   
 
-.des p {
+.des_tam p {
   font-size: 1rem;
   color: #555;
   max-width: 48%;
