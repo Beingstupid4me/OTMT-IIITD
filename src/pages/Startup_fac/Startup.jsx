@@ -36,7 +36,7 @@ function Startup() {
         </p>
       </section>
 
-      <div className="image-container">
+      <div className="img_cont">
   <a href="https://examplelink1.com">
         <img src={logo1} alt="Logo 1" className="image-link1" />
   </a>

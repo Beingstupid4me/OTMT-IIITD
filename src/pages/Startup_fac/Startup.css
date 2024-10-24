@@ -137,12 +137,12 @@
 
   }
   
-  .image-container {
+  .img_cont {
     display: flex;
     gap: 10px; /* Optional: Adds space between images */
 }
 
-.image-container {
+.img_cont {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -153,12 +153,12 @@
 }
 
 
-.image-container {
+.img_cont {
   margin: 10px;
   transition: transform 0.3s ease-in-out; 
 }
 
-.image-container img:hover {
+.img_cont img:hover {
   transform: scale(1.1); 
 }
 
