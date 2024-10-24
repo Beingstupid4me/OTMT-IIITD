@@ -1,7 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 
-.startup{
+.startup {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 20px;
   text-align: center;
@@ -9,62 +8,64 @@
   text-decoration: none;
 }
 
-.startup a{
+.startup a {
   text-decoration: none;
 }
 
-
+.startup-container {
+  display: flex; /* Use flexbox to align items side by side */
+  align-items: flex-start; /* Align items to the top */
+  gap: 40px; /* Space between the two sections */
+}
 
 .des_start {
   margin-bottom: 40px;
 }
 
 .des_start h1 {
-    position: relative;
-    width: 612px;
-    left: 76px;
-    gap: 0px;
-    opacity: 1;
-    font-family: Source Sans Pro;
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 60.34px;
-    text-align: left;
-    color: #328d89;
-    margin: 0;
-    margin-bottom: 0;
- 
+  position: relative;
+  width: 612px;
+  left: 76px;
+  gap: 0px;
+  opacity: 1;
+  font-family: Source Sans Pro;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 60.34px;
+  text-align: left;
+  color: #328d89;
+  margin: 0;
+  margin-bottom: 0;
 }
+
 .des_start h2 {
-    position: relative;
-    width: 1000px;
-    left: 76px;
-    gap: 0px;
-    opacity: 1;
-    font-family: Source Sans Pro;
-    font-size: 1.5rem;
-    font-weight: bold;
-    line-height: 60.34px;
-    text-align: left;
-    color: #328d89;
-    margin: 0;
-    margin-bottom: 0;
-    
- 
+  position: relative;
+  width: 1000px;
+  left: 76px;
+  gap: 0px;
+  opacity: 1;
+  font-family: Source Sans Pro;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 60.34px;
+  text-align: left;
+  color: #328d89;
+  margin: 0;
+  margin-bottom: 0;
 }
+
 .des_start p {
-    font-size: 1rem;
-    color: #555;
-    max-width: 48%;
-    line-height: 1.6;
-    text-align: left;
-    position: relative;
-    left: 76px;
-    margin-bottom: 20rem;
+  font-size: 1rem;
+  color: #555;
+  max-width: 48%;
+  line-height: 1.6;
+  text-align: left;
+  position: relative;
+  left: 76px;
+  margin-bottom: 20rem;
 }
 
-
-.btn{
+.btn {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -76,14 +77,14 @@
   justify-content: left;
 }
 
-.service_btn{
+.service_btn {
   display: flex;
   padding: 10px 70px; /* Increased padding to make the button larger */
   border: 2px solid black;
   color: #000000;
   font-weight: bold;
   border-radius: 0px; /* Added slight rounding to the corners */
-  background:#fff;
+  background: #fff;
   cursor: pointer;
   transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition effects */
   box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
@@ -95,82 +96,65 @@
   border: none;
   box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
   color: #fff;
-
 }
 
 .underline1 {
-    width: 35vh;
+  width: 35vh;
   height: 0.6rem;
   background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
   color: transparent;
   margin-left: 9vh;
+}
 
-  }
-
-  .underline2 {
-    width: 100vh;
+.underline2 {
+  width: 100vh;
   height: 0.4rem;
   background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
   color: transparent;
   margin-left: 9vh;
-  }
+}
 
-  /* .underline2 p {
-    margin-bottom: 20rem;
-  } */
-  #back_block_startup {
-    position: relative;
-    width: 100%;
-    left: 0;
-    right: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: -20px;
-    margin-right: -20px;
-    z-index: -1;
-    color: transparent;
-    top: -25vh;
-    height: 50vh;
-    margin-bottom: -40vh;
-    cursor: none;
-   background: radial-gradient(65.24% 517.33% at 56.12% 36.32%, #74A7C2 0%, #39AEA8 59.49%, #8860D0 100%);
-
-  }
-  
-  .img_cont {
-    display: flex;
-    gap: 10px; /* Optional: Adds space between images */
+#back_block_startup {
+  position: relative;
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  z-index: -1;
+  color: transparent;
+  top: -25vh;
+  height: 50vh;
+  margin-bottom: -40vh;
+  cursor: none;
+  background: radial-gradient(65.24% 517.33% at 56.12% 36.32%, #74A7C2 0%, #39AEA8 59.49%, #8860D0 100%);
 }
 
 .img_cont {
   display: flex;
+  gap: 10px; /* Optional: Adds space between images */
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  
-
-
-}
-
-
-.img_cont {
   margin: 10px;
-  transition: transform 0.3s ease-in-out; 
+  transition: transform 0.3s ease-in-out;
 }
 
 .img_cont img:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 .image-link {
-    width: 50px; /* Set image width */
-    height: auto; /* Maintain aspect ratio */
-    cursor: pointer; /* Add pointer on hover */
-    border-radius: 5px; /* Optional: Rounded corners */
+  width: 50px; /* Set image width */
+  height: auto; /* Maintain aspect ratio */
+  cursor: pointer; /* Add pointer on hover */
+  border-radius: 5px; /* Optional: Rounded corners */
 }
 
 .image-link:hover {
-    opacity: 0.8; /* Add hover effect */
+  opacity: 0.8; /* Add hover effect */
 }
 
 .image-link1 {
@@ -180,9 +164,6 @@
   left: 192px;
   gap: 0px;
   opacity: 1px;
-  
-  
-  
 }
 
 .image-link2 {
@@ -192,10 +173,7 @@
   left: 470px;
   gap: 0px;
   opacity: 1px;
-  
-
 }
-
 
 .image-link3 {
   width: 159px;
@@ -204,6 +182,194 @@
   left: 726px;
   gap: 0px;
   opacity: 1px;
-
 }
 
+.explore-boxes {
+  display: flex; /* Use flexbox for row layout */
+  flex-direction: column; /* Arrange boxes in a column */
+  margin-left: 40px; /* Space between des_start and boxes */
+  gap: 20px; /* Space between each box */
+  explore-boxes {
+    display: flex; /* Display explore boxes in a row */
+    justify-content: space-around; /* Evenly distribute boxes */
+    margin-top: 20px; /* Space above the explore boxes */
+  }
+}
+
+.explore-box {
+  background-color: #f9f9f9; /* Light background for contrast */
+  border: 1px solid #ddd; /* Border for definition */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s; /* Animation on hover */
+  width: 150px; /* Fixed width for uniformity */
+}
+
+.explore-box img {
+  width: 100%; /* Make logo responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.explore-box p {
+  margin-top: 10px; /* Spacing between image and text */
+  font-weight: bold; /* Bold text for emphasis */
+  color: #007BFF; /* Link color */
+  text-decoration: underline; /* Underline for links */
+}
+
+.explore-box:hover {
+  transform: scale(1.05); /* Slight scale effect on hover */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+
+
+/* Container for the explore box and its description */
+.explore-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Description box next to the explore box */
+.description {
+  width: 30%; /* Width of the description */
+  padding: 10px;
+  font-size: 1rem;
+  color: #555;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  text-align: left;
+}
+
+/* Existing styles for explore boxes */
+.explore-boxes {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.explore-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  width: 30%; /* Adjusted to match the description width */
+  transition: transform 0.2s;
+}
+
+.explore-box img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.explore-box p {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.explore-box:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for the images section */
+.img_cont {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.img_cont img {
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.img_cont img:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+/*newly added*/
+/* Container for the explore-box and description below */
+.explore-wrapper {
+  display: flex;
+  justify-content: space-between; /* Ensure three divs are in a row */
+  margin-top: 20px;
+}
+
+/* Individual explore box styling */
+.explore-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 90%; /* Adjust width for each box */
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.explore-box:hover {
+  transform: scale(1.05);
+}
+
+/* Style for the image inside the explore-box */
+.explore-box img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Style for the Explore More text */
+.explore-box p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Style for the description below the explore-box */
+.description {
+  width: 50%;
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: center;
+  color: #555;
+}
+
+/* Ensure the three sections are in a row */
+.explore-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Spacing between the three columns */
+}
+
+@media screen and (max-width: 768px) {
+  /* Stack vertically on smaller screens */
+  .explore-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .explore-box, .description {
+    width: 100%; /* Make the boxes take full width on small screens */
+  }
+}
+.explore-box img {
+  width: 750px;  /* Set a fixed width */
+  height: 50px; /* Set a fixed height */
+  margin-bottom: 10px;
+}

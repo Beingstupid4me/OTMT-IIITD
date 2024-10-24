@@ -19,9 +19,9 @@ const ProjTable = () => {
   };
 
   const iprData = [
-    { sNo: 1, title: '', pi: '', agency: '', end: '', dur: '' },
-    { sNo: 2, title: '', pi: '', agency: '', end: '', dur: '' },
-    { sNo: 3, title: '', pi: '', agency: '', end: '', dur: '' },
+    { sNo: 1, title: 'IIIT D_NVF contract', pi: 'Dr. Tarini Shankar Ghosh:', agency: 'NEW VENTURE FUND', end: '30-09-2025', dur: '2.5 Years' },
+    { sNo: 2, title: 'avISense: Design and Prototype of NavIC Signal Processing Accelerator on Heterogeneous System-on-Chip for Remote Sensing” under Chips to Startup Programme', pi: 'Dr. Sumit Darak', agency: 'MEITY', end: '17.05.2028', dur: '5 Years' },
+    { sNo: 3, title: 'RNA velocity independent direction resolved trajectory inference from scRNA-seq data', pi: 'Dr. Debarka Sen Gupta', agency: 'SERB', end: '02.07.2026	', dur: '3 Year' },
     { sNo: 4, title: '', pi: '', agency: '', end: '', dur: '' },
     { sNo: 5, title: '', pi: '', agency: '', end: '', dur: '' },
     { sNo: 6, title: '', pi: '', agency: '', end: '', dur: '' },
@@ -82,9 +82,18 @@ const ProjTable = () => {
 
       {/* Explore More Button */}
       <div className="exp-more">
-        <Link to="/explore-more">
+
+
+       <a
+          href="https://iiitd.ac.in/research/projects/srp"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="exp_btn">Explore More</button>
-        </Link>
+        </a> 
+        
+          
+        
       </div>
     </div>
   );
