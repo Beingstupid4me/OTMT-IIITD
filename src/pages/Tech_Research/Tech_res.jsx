@@ -45,7 +45,7 @@ function Resrch() {
           </p>
         </div>
 
-        {/* Right Side - Image Content */}
+      
         <div className="image-container">
           <img
             src={logo3}
@@ -54,7 +54,7 @@ function Resrch() {
         </div>
       </section>
 
-      {/* Buttons Section */}
+     
       <div className="res_btn">
         {/* <a
           href="https://iiitd.ac.in/research/projects/srp"
