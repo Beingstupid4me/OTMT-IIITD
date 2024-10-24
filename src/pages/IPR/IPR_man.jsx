@@ -5,7 +5,7 @@ import FaqPopup3 from "../../components/faq3";
 function IPR() {
   return (
     <div className="ipr">
-      <section className="des">
+      <section className="des_ipr">
         <h1>IPR Management</h1>
         <br />
         <div
@@ -18,7 +18,7 @@ function IPR() {
           }}
         >
           {" "}
-          hello
+          
         </div>
         <br />
         <p>
@@ -112,20 +112,20 @@ function IPR() {
         </div>
       </section>
 
-      <div className="service-buttons">
+      <div className="service-buttonsi">
         <a
           href="https://iiitd.ac.in/otmt/docs/IIITD%20IP%20Policy.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="service_btn">IPR Policy</button>
+          <button className="service-btni">IPR Policy</button>
         </a>
         <a
           href="https://calendar.google.com/calendar/u/0/r/eventedit?add=alok@iiitd.ac.in&cls=0&hl=en"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="service-btn">Request for a meeting</button>
+          <button className="service-btni">Request for a meeting</button>
         </a>
 
         <a
@@ -133,7 +133,7 @@ function IPR() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="service-btn">Apply for IPR</button>
+          <button className="service-btni">Apply for IPR</button>
         </a>
 
         <a
@@ -141,7 +141,7 @@ function IPR() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="service-btn">Filed Patents IRD </button>
+          <button className="service-btni">Filed Patents IRD </button>
         </a>
 
 

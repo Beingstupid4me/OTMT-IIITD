@@ -81,9 +81,9 @@ const ProjTable = () => {
       />
 
       {/* Explore More Button */}
-      <div className="explore-more">
+      <div className="exp-more">
         <Link to="/explore-more">
-          <button className="explore_btn">Explore More</button>
+          <button className="exp_btn">Explore More</button>
         </Link>
       </div>
     </div>

@@ -8,7 +8,7 @@ import FaqPopup1 from "../../components/faq1";
 function FacInn() {
   return (
     <div className="fac-inn">
-      <section className="des">
+      <section className="des_inn">
         <h1>Facilitate Innovation and Awareness</h1>
         <br />
         <div className="rec"> </div>
@@ -62,7 +62,7 @@ function FacInn() {
       <div className="service-buttonsf">
        
         <a href="https://calendar.google.com/calendar/u/0/r/eventedit?add=alok@iiitd.ac.in&cls=0&hl=en" target="_blank" rel="noopener noreferrer">
-          <button className="service_btn">Schedule a Meeting</button>
+          <button className="service-btnf">Schedule a Meeting</button>
         </a>
         <Link to="/events">
         <button className="service-btnf">Upcoming Events</button>

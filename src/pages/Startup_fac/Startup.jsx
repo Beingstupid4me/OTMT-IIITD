@@ -9,7 +9,7 @@ import logo3 from '../../images/logo5.png';
 function Startup() {
   return (
     <div className="startup">
-      <section className="des">
+      <section className="des_start">
         <h1>Startup Facilitation</h1>
 
         <div className="underline1"> </div>

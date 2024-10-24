@@ -16,7 +16,7 @@
   width: 612px;
   left: 76px;
   gap: 0px;
-  opacity: 0px;
+  opacity: 1;
   font-family: 'Source Sans Pro';
   font-size: 3rem;
   font-weight: bold;
@@ -131,7 +131,7 @@
   position: relative;
 } */
 
-.service-buttons {
+.service-buttonst {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -143,7 +143,7 @@
   justify-content: left;
 }
 
-.service-btn {
+.service-btnt {
   padding: 10px 70px; /* Increased padding to make the button larger */
   border: 2px solid black;
   color: #000000;
@@ -155,7 +155,7 @@
   box-shadow: 3px 4px 20px 0px #FFFFFF;
 }
 
-.service-btn:hover {
+.service-btnt:hover {
   background: linear-gradient(45deg, #73cfca, #8860d0); /* Gradient effect on hover */
   transform: scale(1.05); /* Slightly increase the button size on hover */
   border: none;

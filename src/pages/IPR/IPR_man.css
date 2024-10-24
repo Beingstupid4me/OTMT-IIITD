@@ -7,11 +7,11 @@
   color: #333;
 }
 
-.des {
+.des_ipr {
   margin-bottom: 40px;
 }
 
-.des h1 {
+.des_ipr h1 {
   position: relative;
   width: 612px;
   left: 76px;
@@ -26,7 +26,7 @@
   margin: 0;
 }
 
-.des p {
+.des_ipr p {
   font-size: 1rem;
   color: #555;
   max-width: 48%;
@@ -105,7 +105,7 @@
 
 
 
-.service-buttons {
+.service-buttonsi {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -117,7 +117,7 @@
   justify-content: left;
 }
 
-.service-btn {
+.service-btni {
   padding: 10px 70px; /* Increased padding to make the button larger */
   border: 2px solid black;
   color: #000000;
@@ -130,7 +130,7 @@
   box-shadow: 3px 4px 20px 0px #FFFFFF;
 }
 
-.service-btn:hover {
+.service-btni:hover {
   background: linear-gradient(45deg, #73cfca, #8860d0); /* Gradient effect on hover */
   transform: scale(1.05); /* Slightly increase the button size on hover */
   border: none;

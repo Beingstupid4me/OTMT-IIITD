@@ -15,16 +15,16 @@
 
 
 
-.des {
+.des_start {
   margin-bottom: 40px;
 }
 
-.des h1 {
+.des_start h1 {
     position: relative;
     width: 612px;
     left: 76px;
     gap: 0px;
-    opacity: 0px;
+    opacity: 1;
     font-family: Source Sans Pro;
     font-size: 3rem;
     font-weight: bold;
@@ -35,12 +35,12 @@
     margin-bottom: 0;
  
 }
-.des h2 {
+.des_start h2 {
     position: relative;
     width: 1000px;
     left: 76px;
     gap: 0px;
-    opacity: 0px;
+    opacity: 1;
     font-family: Source Sans Pro;
     font-size: 1.5rem;
     font-weight: bold;
@@ -52,7 +52,7 @@
     
  
 }
-.des p {
+.des_start p {
     font-size: 1rem;
     color: #555;
     max-width: 48%;
@@ -174,7 +174,7 @@
 }
 
 .image-link1 {
-  width: 28px;
+  width: 228px;
   height: 63px;
   top: 895px;
   left: 192px;

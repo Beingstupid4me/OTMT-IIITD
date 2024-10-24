@@ -85,27 +85,27 @@ function Tam() {
           </p>
         </div>
       </section>
-      <div className="service-buttons">
+      <div className="service-buttonst">
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSefvXQtLEjxzxtfWFAaXZgorZofOS2zO8ScsXUwmxdzFm4yNw/viewform"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="service_btn">Submit Your Details</button>
+          <button className="service-btnt">Submit Your Details</button>
         </a>
         <a
           href="https://iiitd.ac.in/otmt/docs/IIITD%20IP%20Policy.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="service_btn">Policy and SOPs</button>
+          <button className="service-btnt">Policy and SOPs</button>
         </a>
         <a
           href="https://calendar.google.com/calendar/u/0/r/eventedit?add=alok@iiitd.ac.in&cls=0&hl=en"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="service_btn">Contact to evaluate TRL</button>
+          <button className="service-btnt">Contact to evaluate TRL</button>
         </a>
       </div>
       <div id="back_block_tam"> </div>

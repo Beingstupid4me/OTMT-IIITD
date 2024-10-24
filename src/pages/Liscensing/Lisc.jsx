@@ -7,7 +7,7 @@ import FaqPopup4 from "../../components/faq4";
 function Lisc() {
   return (
     <div className="tech_lisc">
-      <section className="des">
+      <section className="des_lisc">
         <h1>Technology Licensing</h1>
         <br />
         <div
