@@ -55,7 +55,7 @@
 /* Styles for the Explore More button */
 .exp-more {
   position: absolute;
-  bottom: 150px; /* Adjust as needed */
+  bottom: 100px; /* Adjust as needed */
   left: 90px;   /* Adjust as needed */
 }
 
