@@ -81,7 +81,7 @@ const ProjTable = () => {
       />
 
       {/* Explore More Button */}
-      <div className="exp-more">
+      <div className="exp-moree">
 
 
        <a
@@ -89,7 +89,7 @@ const ProjTable = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="exp_btn">Explore More</button>
+          <button className="exp_btnn">Explore More</button>
         </a> 
         
           

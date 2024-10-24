@@ -54,13 +54,13 @@
 }
 
 /* Styles for the Explore More button */
-.exp-more {
+.exp-moree {
   position: absolute;
   bottom: 85px; /* Adjust as needed */
   left: 90px;   /* Adjust as needed */
 }
 
-.exp_btn {
+.exp_btnn {
   padding: 10px 20px;
   background-color: #73cfca; /* Button background color */
   border: none;
@@ -71,7 +71,7 @@
   transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transitions */
 }
 
-.exp_btn:hover {
+.exp_btnn:hover {
   background-color: #8860d0; /* Change color on hover */
   transform: translateY(-3px); /* Lift effect on hover */
 }
