@@ -181,7 +181,7 @@
 
 
 
-.feature-cards {
+.feature-cards { 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -190,6 +190,7 @@
 }
 
 .feature-card {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -202,4 +203,52 @@
     text-align: center;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevents content overflow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    cursor: pointer;
+}
+
+.feature-card h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.feature-card p {
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: justify;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    opacity: 0;
+    transform: translateY(10px); /* Start position for animation */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth fade and slide-in */
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.feature-card:hover {
+    transform: scale(1.05); /* Slight scale on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    text-align: center
+    
+}
+
+.feature-card:hover h2 {
+   opacity: 0;
+}
+
+.feature-card:hover p {
+    opacity: 1;
+    transform: translateY(0); /* Slide up into view */
+    text-align: center
 }

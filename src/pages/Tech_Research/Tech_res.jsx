@@ -28,22 +28,45 @@ function Resrch() {
 
           <div className="feature-cards">
             <div className="feature-card">
-              Identifying Commercially Viable Research
+             <h2> Identifying Commercially Viable Research</h2>
+              <p>
+                We work with researchers at IIIT Delhi to identify projects with
+                strong potential for commercialization, helping bridge the gap
+                between laboratory discoveries and industry needs.
+              </p>
             </div>
+
             <div className="feature-card">
-              Fostering Industry Collaboration
+             <h2> Fostering Industry Collaboration</h2>
+              <p>
+                OTMT facilitates partnerships with industry, enabling
+                collaboration on research, development, and product innovation.
+                These partnerships often lead to technology licensing, joint
+                ventures, and R&D funding opportunities.
+              </p>
             </div>
+
             <div className="feature-card">
-            Supporting Intellectual Property (IP) Protection
+              <h2>Supporting Intellectual Property (IP) Protection</h2>
+              <p>
+                We assist in securing intellectual property rights for research
+                outputs, ensuring that innovations are protected and ready for
+                licensing or commercialization.
+              </p>
             </div>
+
             <div className="feature-card">
-            Enabling Startups and Spin-offs
+              <h2>Enabling Startups and Spin-offs</h2>
+              <p>
+                OTMT encourages entrepreneurial activities by supporting faculty
+                and student ventures, helping to incubate and commercialize
+                research-based startups.
+              </p>
             </div>
+
             {/* <div className="feature-card">
             Technology Transfer
             </div> */}
-
-
           </div>
 
           <h2>Ongoing R&D</h2>
