@@ -1,37 +1,46 @@
-
-
 import React from "react";
 import "./tam.css";
 import { Link } from "react-router-dom";
 import FaqPopup2 from "../../components/faq2";
+import logo3 from "../../images/TRL.jpg";
 
 function Tam() {
   return (
     <div className="tech_ass">
       <section className="des_sec">
-        <div className="des_tam">
-          <h1>Technology Maturity Assessment</h1>
-          <br />
-          <div
-            className="tam_line"
-            style={{
-              height: "0.6rem",
-              width: "55vh",
-              marginLeft: "9vh",
-              marginTop: "2vh",
-            }}
-          >
-            {" "}
-            
+        <div className="des_container">
+          <div className="des_tam">
+            <h1>Technology Maturity Assessment</h1>
+            <br />
+            <div
+              className="tam_line"
+              style={{
+                height: "0.6rem",
+                width: "55vh",
+                marginLeft: "9vh",
+                marginTop: "2vh",
+              }}
+            >
+              {" "}
+            </div>
+            <br />
+            <p>
+              Technology Maturity Assessment is a comprehensive evaluation
+              process determining how ready your technology or invention is for
+              real-world application. It provides an in-depth analysis of
+              various aspects of the technology to assess its current level of
+              development and its potential for future success. By examining
+              both the technical and market readiness, this assessment helps
+              identify the steps required to transition technology from concept
+              to commercialization.
+            </p>
           </div>
-          <br />
-          <p>
-            Technology Maturity Assessment is a thorough check-up that figures
-            out if your new technology or invention is ready to be used in real
-            life. It looks at the readiness of your technology and its different
-            aspects to see how well the technology is doing now and what its
-            chances are for success in the future
-          </p>
+
+          <img
+            src={logo3}
+            alt="Technology Maturity Assessment"
+            className="tam_image"
+          />
         </div>
       </section>
 
@@ -45,9 +54,7 @@ function Tam() {
             "margin-left": "9vh",
             marginTop: "0vh",
           }}
-        >
-          hello
-        </div>
+        ></div>
       </div>
       <section className="services_listt">
         <div className="service_item1t">

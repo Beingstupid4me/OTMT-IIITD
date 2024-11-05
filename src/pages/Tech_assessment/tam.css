@@ -72,13 +72,7 @@
 }
 
 
-/* .title_decoration {
-  height: 0.25rem;
-  width: 35vh;
-  margin-right: 7vh;
-  background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
-  color: transparent;
-} */
+
 
 .service_item1t {
   background: #fff;
@@ -122,14 +116,6 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-/* .rect {
-  width: 35vh;
-  height: 0.60rem;
-  background: radial-gradient(circle at 7.5% 0%, #8860d0 0%, #73cfca 100%);
-  color: transparent;
-  left: 76px;
-  position: relative;
-} */
 
 .service-buttonst {
   display: flex;
@@ -198,4 +184,17 @@
   cursor: none;
  background: radial-gradient(65.24% 517.33% at 56.12% 36.32%, #74A7C2 0%, #39AEA8 59.49%, #8860D0 100%);
 
+}
+.tam_image {
+  width: 650px; /* Adjust the width as needed */
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+
+}
+
+.des_container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
 }

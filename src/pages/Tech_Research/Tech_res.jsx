@@ -3,12 +3,10 @@ import "./Tech_res.css";
 import { Link } from "react-router-dom";
 import logo3 from "../../images/technology_res.jpg";
 
-
 function Resrch() {
   return (
     <div className="research">
       <section className="res_des">
-        {/* Left Side - Text Content */}
         <div className="txt_content">
           <h1>Our Research</h1>
           <div className="res_line"></div>
@@ -24,47 +22,59 @@ function Resrch() {
             between researchers, industry leaders, and entrepreneurs to help
             transform research outcomes into commercial products, services, and
             technologies that drive societal and economic progress.
+            <br />
+            <br /> Our key areas of focus include:
           </p>
+
+          <div className="feature-cards">
+            <div className="feature-card">
+              Identifying Commercially Viable Research
+            </div>
+            <div className="feature-card">
+              Fostering Industry Collaboration
+            </div>
+            <div className="feature-card">
+            Supporting Intellectual Property (IP) Protection
+            </div>
+            <div className="feature-card">
+            Enabling Startups and Spin-offs
+            </div>
+            {/* <div className="feature-card">
+            Technology Transfer
+            </div> */}
+
+
+          </div>
+
           <h2>Ongoing R&D</h2>
           <div className="res_line2"></div>
           <p>
             While the research happens at IIIT Delhi, OTMT’s role is to record,
             promote, and encourage collaboration to ensure that the research is
-            translated into tangible products and solutions. Our ongoing
-            initiatives include: <br /> A) Facilitating Cross-Sector
-            Collaboration: We actively encourage collaborations between
-            researchers at IIIT Delhi and industry leaders, startups, and
-            policymakers, ensuring that research is aligned with market needs.{" "}
+            translated into tangible products and solutions.
+            <br /> Our ongoing initiatives include:
+            <br /> <br /> A) Facilitating Cross-Sector Collaboration: We
+            actively encourage collaborations between researchers at IIIT Delhi
+            and industry leaders, startups, and policymakers, ensuring that
+            research is aligned with market needs.
+            <br />
             <br /> B) Promoting Innovation Ecosystem: OTMT supports the
             development of an innovation ecosystem at IIIT Delhi, where
             researchers and entrepreneurs collaborate to address global
-            challenges through cutting-edge technology. <br /> C) Commercialization
-            Pathways: We guide researchers through the commercialization
-            process, from securing patents to licensing technology to industry
-            partners or launching spin-off companies.
+            challenges through cutting-edge technology.
+            <br /> <br /> C) Commercialization Pathways: We guide researchers
+            through the commercialization process, from securing patents to
+            licensing technology to industry partners or launching spin-off
+            companies.
           </p>
         </div>
 
-      
         <div className="image-container">
-          <img
-            src={logo3}
-            alt="Research"
-          />
+          <img src={logo3} alt="Research" />
         </div>
       </section>
 
-     
       <div className="res_btn">
-        {/* <a
-          href="https://iiitd.ac.in/research/projects/srp"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button className="ser_btn">List of ongoing works</button>
-        </a> */}
-
-
         <Link to="/Proj">
           <button className="ser_btn">Sponsored Research Projects</button>
         </Link>
@@ -76,7 +86,7 @@ function Resrch() {
           <button className="ser_btn">File your IPR with us</button>
         </a>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdDMThVAiQwRLV6wkoM3YFGQXmu6IJ7gpH5jShh1xJeY8ZTFw/viewform"
+          href="https://forms.gle/5XrmagZjE6t8dxBR7"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -86,7 +96,6 @@ function Resrch() {
         <button className="ser_btn">Looking for Research Collaboration</button>
       </div>
 
-      {/* IPR Section */}
       <h2 className="ipr-heading">Our IPRs</h2>
       <div className="res_line3"> </div>
       <div className="res_btn2">
