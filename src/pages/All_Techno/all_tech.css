@@ -10,7 +10,7 @@
 
 .techno_title {
   text-align: center;
-  color: #8860d0;
+  color: #328d89;
   margin-bottom: 20px;
   font-size: 2rem; /* Adjusted for consistency with previous styles */
   font-weight: bolder;
@@ -28,7 +28,7 @@
 }
 
 .techno_table th {
-  background-color: #8860d0; /* Adjusted to match your color scheme */
+  background-color: #328d89;/* #8860d0;  Adjusted to match your color scheme */
   color: #ffffff; /* Updated for better contrast */
   text-align: center;
   font-weight: bolder;
@@ -43,7 +43,7 @@
 }
 
 .techno_table td a {
-  color: #8860d0; /* Updated to match your color scheme */
+  color:#328d89; /* Updated to match your color scheme */
   text-decoration: none;
   font-weight: bold; /* Consistent with previous styles */
 }
@@ -70,7 +70,7 @@
 }
 
 .search-bar input:focus {
-  border-color: #8860d0; /* Focus color to match your theme */
+  border-color: #328d89; /* Focus color to match your theme */
   outline: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Enhanced shadow on focus */
 }
@@ -78,7 +78,7 @@
 .submit-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #8860d0; /* Match your button color */
+  background-color:#328d89; /* Match your button color */
   color: #fff;
   text-decoration: none;
   border-radius: 4px;

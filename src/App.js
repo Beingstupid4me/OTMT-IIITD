@@ -13,7 +13,7 @@ import Eve from './pages/Events/Eve';
 import Cont from './pages/Contact/Cont';
 import Lisc from './pages/Liscensing/Lisc';
 import IPR_man from './pages/IPR/IPR_man';
-import Startup from './pages/Startup_fac/Startup';
+import Startup from './pages/Startup_new/Start';
 import Tech_res from './pages/Tech_Research/Tech_res';
 import Tech_tech from './pages/Tech_Technology/Tech_tech';
 import Fac_Res from './pages/Fac_Resources/Fac_Res';
@@ -59,6 +59,8 @@ function App() {
       <Route path='/par_res' element={<Par_Res />} />
       <Route path='/Past' element={<Past />} />
       <Route path='/Proj' element={<Proj />} />
+      
+
 
 
 

@@ -132,244 +132,95 @@
   background: radial-gradient(65.24% 517.33% at 56.12% 36.32%, #74A7C2 0%, #39AEA8 59.49%, #8860D0 100%);
 }
 
-.img_cont {
+
+
+
+
+.Cards {
+  margin-left: -20%; /* Adjust this value to move the section further left or right */
+}
+
+.tech_types {
   display: flex;
-  gap: 10px; /* Optional: Adds space between images */
-  justify-content: space-around;
+  flex-direction: row;
   align-items: center;
-  flex-wrap: wrap;
-  margin: 10px;
-  transition: transform 0.3s ease-in-out;
+  justify-content: space-between; /* Keeps space between cards consistent */
+  padding-top: 30px;
+  padding-left: 0; /* Remove any padding if necessary */
+  padding-right: 0; /* Remove any padding if necessary */
 }
 
-.img_cont img:hover {
-  transform: scale(1.1);
-}
-
-.image-link {
-  width: 50px; /* Set image width */
-  height: auto; /* Maintain aspect ratio */
-  cursor: pointer; /* Add pointer on hover */
-  border-radius: 5px; /* Optional: Rounded corners */
-}
-
-.image-link:hover {
-  opacity: 0.8; /* Add hover effect */
-}
-
-.image-link1 {
-  width: 228px;
-  height: 63px;
-  top: 895px;
-  left: 192px;
-  gap: 0px;
-  opacity: 1px;
-}
-
-.image-link2 {
-  width: 106px;
-  height: 63px;
-  top: 892px;
-  left: 470px;
-  gap: 0px;
-  opacity: 1px;
-}
-
-.image-link3 {
-  width: 159px;
-  height: 57px;
-  top: 898px;
-  left: 726px;
-  gap: 0px;
-  opacity: 1px;
-}
-
-.explore-boxes {
-  display: flex; /* Use flexbox for row layout */
-  flex-direction: column; /* Arrange boxes in a column */
-  margin-left: 40px; /* Space between des_start and boxes */
-  gap: 20px; /* Space between each box */
-  explore-boxes {
-    display: flex; /* Display explore boxes in a row */
-    justify-content: space-around; /* Evenly distribute boxes */
-    margin-top: 20px; /* Space above the explore boxes */
-  }
-}
-
-.explore-box {
-  background-color: #f9f9f9; /* Light background for contrast */
-  border: 1px solid #ddd; /* Border for definition */
-  border-radius: 8px; /* Rounded corners */
-  padding: 15px;
+.tech_type1 {
+  margin: 5px; /* Further reduced margin to decrease gap between cards */
   text-align: center;
-  transition: transform 0.2s; /* Animation on hover */
-  width: 150px; /* Fixed width for uniformity */
+  width: 15rem;
+  height: 20rem;
+  background: #FFFFFF;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
+  padding-bottom: 120px;
 }
 
-.explore-box img {
-  width: 100%; /* Make logo responsive */
-  height: auto; /* Maintain aspect ratio */
+.tech_type1 img {
+  width: 1rem;
+  height: 19rem;
+  object-fit: cover;
+  box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
 }
 
-.explore-box p {
-  margin-top: 10px; /* Spacing between image and text */
-  font-weight: bold; /* Bold text for emphasis */
-  color: #007BFF; /* Link color */
-  text-decoration: underline; /* Underline for links */
+.tech_type1 p {
+  font-size: 1.3rem;
+  color: #8860D0;
+  margin-top: 2.5rem;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+  text-align: center;
 }
 
-.explore-box:hover {
-  transform: scale(1.05); /* Slight scale effect on hover */
-  cursor: pointer; /* Change cursor on hover */
+.tech_type1 a {
+  text-decoration: none;
 }
 
-
-
-/* Container for the explore box and its description */
-.explore-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 20px;
+.tech_type1 p.para {
+  display: none;
+  color: #333;
+  font-size: 0.75rem;
+  padding-bottom: 20px;
 }
 
-/* Description box next to the explore box */
-.description {
-  width: 30%; /* Width of the description */
-  padding: 10px;
-  font-size: 1rem;
-  color: #555;
-  background-color: #f0f0f0;
-  border-radius: 8px;
+.tech_type1:hover {
+  height: 19rem;
+  transition: 0.7s ease-in-out;
+  background: radial-gradient(132.22% 118% at 7.5% 0%, #8860D0 0%, #73CFCA 100%);
   text-align: left;
 }
 
-/* Existing styles for explore boxes */
-.explore-boxes {
-  display: flex;
-  flex-direction:row;
-  justify-content: space-between;
+.tech_type1:hover p {
+  color: #FFFFFF;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  transition: 0.7s ease-in-out;
+  text-align: left;
+  text-decoration: none;
 }
 
-.explore-box {
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  text-align: center;
-  padding: 10px;
-  width: 30%; /* Adjusted to match the description width */
-  transition: transform 0.2s;
+.tech_type1:hover p.para {
+  display: block;
+  transition: 0.7s ease-in-out;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  text-align: justify;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
-.explore-box img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+.tech_type1 img {
+  transition: box-shadow 0.7s ease-in-out;
 }
 
-.explore-box p {
-  margin-top: 10px;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #333;
-}
-
-.explore-box:hover {
-  transform: scale(1.05);
-}
-
-/* Styling for the images section */
-.img_cont {
-  display: flex;
-  justify-content: space-around;
-  margin: 20px 0;
-}
-
-.img_cont img {
-  width: 100px;
-  height: auto;
-  transition: transform 0.3s ease;
-}
-
-.img_cont img:hover {
-  transform: scale(1.1);
+.tech_type1:hover img {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  width: 15rem;
+  height: 12rem;
 }
 
 
-
-
-
-/*newly added*/
-/* Container for the explore-box and description below */
-.explore-wrapper {
-  display: flex;
-  justify-content: space-between; /* Ensure three divs are in a row */
-  margin-top: 20px;
-}
-
-/* Individual explore box styling */
-.explore-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: 90%; /* Adjust width for each box */
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
-}
-
-.explore-box:hover {
-  transform: scale(1.05);
-}
-
-/* Style for the image inside the explore-box */
-.explore-box img {
-  width: 150px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-/* Style for the Explore More text */
-.explore-box p {
-  font-size: 1rem;
-  font-weight: bold;
-  color: #333;
-  margin-top: 10px;
-}
-
-/* Style for the description below the explore-box */
-.description {
-  width: 50%;
-  margin-top: 10px;
-  font-size: 1rem;
-  text-align: center;
-  color: #555;
-}
-
-/* Ensure the three sections are in a row */
-.explore-wrapper {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px; /* Spacing between the three columns */
-}
-
-@media screen and (max-width: 768px) {
-  /* Stack vertically on smaller screens */
-  .explore-wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .explore-box, .description {
-    width: 100%; /* Make the boxes take full width on small screens */
-  }
-}
-.explore-box img {
-  width: 1500px;  /* Set a fixed width */
-  height: 50px; /* Set a fixed height */
-  margin-bottom: 10px;
-}

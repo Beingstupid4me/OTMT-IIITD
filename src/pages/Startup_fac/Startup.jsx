@@ -51,6 +51,7 @@ function Startup() {
               <p>Explore More</p>
             </a>
           </div>
+          
           <div className="description">
             <p>Electropreneur Park (STPI)</p>
           </div>

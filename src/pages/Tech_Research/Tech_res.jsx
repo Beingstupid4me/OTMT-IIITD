@@ -102,21 +102,30 @@ function Resrch() {
           <button className="ser_btn">Sponsored Research Projects</button>
         </Link>
         <a
-          href="https://forms.gle/A6DZy5P4h9jhGGB86"
+          href="https://forms.gle/wcSwjs4nHNT7fQwT9"
           target="_blank"
           rel="noopener noreferrer"
         >
           <button className="ser_btn">File your IPR with us</button>
         </a>
         <a
-          href="https://forms.gle/5XrmagZjE6t8dxBR7"
+          href="https://forms.gle/NWzR9N18g38ZSfih8"
           target="_blank"
           rel="noopener noreferrer"
         >
           <button className="ser_btn">Commercialize your Technology</button>
         </a>
 
-        <button className="ser_btn">Looking for Research Collaboration</button>
+
+        <a
+          href="https://forms.gle/1emV76PHMjcGE3AF9"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="ser_btn">Looking for Research Collaboration</button>
+        </a>
+
+        
       </div>
 
       <h2 className="ipr-heading">Our IPRs</h2>
