@@ -77,10 +77,12 @@ position: relative;
   margin: 0px; /* Further reduced margin to decrease gap between cards */
   text-align: center;
   width: 17rem;
-  height: 20rem;
+  height: 10rem;
  background:  #FFFFFF;
   box-shadow: 0 0 5vh rgba(0, 0, 0, 0.4);
   padding-bottom: 120px;
+  border-radius: 10px;
+
 }
 
 .Ass_type1 img {
@@ -181,7 +183,7 @@ position: relative;
   margin-right: -20px;
   z-index: -1;
   color: transparent;
-  top: -15vh;
+  top: -9vh;
   height: 50vh;
   margin-bottom: -30vh;
   cursor: none;

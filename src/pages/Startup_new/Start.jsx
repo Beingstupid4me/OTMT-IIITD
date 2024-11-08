@@ -53,7 +53,7 @@ function Start() {
               </p>
             </a>
             <p className="para">
-              OFFERINGS:
+            <span style={{ fontWeight:"bolder" }}>OFFERINGS:</span>
               <br />
               Incubation Programs: Tailored support to help startups in
               early-stage development.<br />
@@ -80,12 +80,12 @@ function Start() {
               OFFERINGS:
               <br />
               Research and Development: Access to cutting-edge research in
-              cognitive computing and AI. 
+              cognitive computing and AI. <br />
               <br />Collaboration Opportunities: Work with
               researchers and industry experts to bring your innovations to
-              life. 
+              life. <br />
               <br />Startup Incubation: Support for startups developing
-              solutions in the fields of AI and IoT. 
+              solutions in the fields of AI and IoT. <br />
               <br />Commercialization Support:
               Help in turning research projects into viable, market-ready
               products. For more information, visit the IHUB Anubhuti Foundation
@@ -104,12 +104,12 @@ function Start() {
             <p className="para">
               OFFERINGS:
               <br /> Specialized Infrastructure: Access to state-of-the-art
-              electronics and hardware facilities.
+              electronics and hardware facilities.<br />
               <br /> Sector-Specific Mentorship:
               Guidance from experts in electronics system design and
-              manufacturing. 
+              manufacturing. <br />
               <br />Business Acceleration: Support in scaling hardware
-              innovations to market. 
+              innovations to market. <br />
               <br />Investment Access: Opportunities to connect
               with investors focused on hardware startups. For more details,
               visit the Electropreneur Park website.
