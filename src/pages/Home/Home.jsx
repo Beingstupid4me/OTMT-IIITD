@@ -210,6 +210,7 @@ function Home() {
               </a>
             </div>
           </div>
+         
           <div className="back_block"></div>
         </div>
       </section>

@@ -124,6 +124,8 @@ export default function Navbar() {
                     <Link to="/collaborate">Collaborate</Link>
                     <Link to="/events">Events</Link>
                     <Link to="/contact">Contact Us</Link>
+                    
+
                 </nav>
             </div>
         </header>
